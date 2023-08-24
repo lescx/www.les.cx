@@ -13,4 +13,4 @@ I don't have analytics on the site. The only thing I can see about how often my 
 
 It's hosted by the friends from Karlsruhe, [netcup.de](https://netcup.de). My server is in Nuremberg.
 
-The email is hosted by the lovely people at [mailbox.org] (https://mailbox.org) in Berlin.
+The email is hosted by the lovely people at [mailbox.org](https://mailbox.org) in Berlin.
