@@ -1,0 +1,52 @@
+# Default environments are `development` with hugo server and `production` with hugo.
+
+#[[cascade]]
+
+baseurl = 'https://www.les.cx/'
+#buildExpired = false
+#canonifyURLs = false
+#cleanDestinationDir = false
+#copyright = ''
+defaultcontentlanguage = 'en'
+#defaultcontentlanguageinsubdir = false
+#disableAliases = false
+disablehugogeneratorinject = true
+#disablelanguages
+#disablelivereload = false
+#disablepathtolower = false
+enableemoji = false
+enablegitinfo = false
+#enableinlineshortcodes = false
+#enablemissingtranslationplaceholders = false
+#enablerobotstxt = false
+hascjklanguage = true
+languagecode = 'en-us'
+#newContentEditor
+paginate = 10.0
+paginatepath = 'page'
+pluralizelisttitles = true
+#refLinksErrorLevel = 'ERROR'
+#refLinksNotFoundURL
+#relativeURLs = false
+#removePathAccents = false
+resourcedir = 'resources'
+#rssLimit = -1
+summarylength = 70.0
+theme = ['kafkaesk']
+timeout = '30s'
+timezone = 'Europe/Berlin'
+title = 'les.cx site title'
+titlecasestyle = 'AP'
+
+[build]
+  nojsconfiginassets = true
+
+[imaging]
+  bgcolor = '#ffffff'
+  hint = 'photo'
+  quality = 75.0
+  resamplefilter = 'box'
+
+[security]
+  [security.exec]
+    allow = ['^go$']

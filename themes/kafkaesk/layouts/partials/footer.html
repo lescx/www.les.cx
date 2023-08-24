@@ -1,0 +1,18 @@
+<footer>
+  <hr>
+  <small>
+    <ul class="menu-legal">
+      {{- range site.Menus.legal }}
+        <li><a {{ with .Params.class -}} class="{{ . }}" {{ end -}} href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ with .Pre }}
+          {{ . }} 
+        {{ end }}
+      {{- end }}
+    </ul>
+    <ul class="menu-protocol">
+      {{- range site.Menus.protocol }}
+        <li><a {{ with .Params.class -}} class="{{ . }}" {{ end -}} href="{{ .URL }}">{{ .Name }}</a></li>
+      {{- end }}
+    </ul>
+  </small>
+</footer>

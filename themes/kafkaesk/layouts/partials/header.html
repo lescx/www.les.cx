@@ -1,0 +1,7 @@
+<ul>
+{{- range site.Menus.main }}
+  <li><a {{ with .Params.class -}} class="{{ . }}" {{ end -}} href="{{ .URL }}">{{ .Name }}</a></li>
+{{- end }}
+</ul>
+
+<hr>

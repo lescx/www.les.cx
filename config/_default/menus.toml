@@ -1,0 +1,44 @@
+[[main]]
+  name = 'Articles'
+  url = '/articles'
+  weight = 10
+  pre = "<i class='fa fa-heart'></i><hr><hr><hr>"
+[[main]]
+  name = 'Articles RSS'
+  url = '/articles/rss'
+  weight = 11
+[[main]]
+  name = 'University'
+  url = '/university'
+  weight = 20
+[[main]]
+  name = 'University RSS'
+  url = '/university/rss'
+  weight = 21
+[[main]]
+  name = 'Contact'
+  url = '/contact'
+  weight = 30
+
+[[protocol]]
+  name = 'HTTPS'
+  url = '/'
+  weight = 10
+[[protocol]]
+  name = 'Gemini'
+  url = 'gemini://les.cx'
+  weight = 20
+[[protocol]]
+  name = 'Tor'
+  url = 'http://placeholderlescx.onion'
+  weight = 30
+
+[[legal]]
+  name = 'copyright'
+  url = '/copyright'
+  weight = 10
+[[legal]]
+  name = 'privacy policy'
+  url = '/privacy-policy'
+  weight = 20
+
