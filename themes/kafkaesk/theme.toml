@@ -1,10 +1,8 @@
 name = "Kafkaesk"
 license = "BSD-3-Clause"
-#licenselink = "https://codeberg.org/les/yourtheme/blob/master/LICENSE"
+licenselink = "https://codeberg.org/les/www.les.cx/src/branch/main/static/LICENSE"
 description = ""
 homepage = "https://www.les.cx"
-tags = []
-features = []
 min_version = "0.117.0"
 
 [author]
