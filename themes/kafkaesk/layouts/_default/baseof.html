@@ -3,9 +3,9 @@
   {{- partial "head.html" . -}}
   <body>
   {{ partial "header.html" . -}}
-    <div id="content">
-    {{- block "content" . }}{{- end }}
-    </div>
+    <main>
+    {{- block "main" . }}{{- end }}
+    </main>
   {{- partialCached "footer.html" . -}}
   </body>
 </html>

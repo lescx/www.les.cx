@@ -2,10 +2,13 @@
   name = 'Articles'
   url = '/articles'
   weight = 10
+  # Idealerweise sollte um den Link und das RSS Icon noch ein wrapper gesteckt werden.
+  # Es wäre wohl besser, wenn ich ein paar menu.main.params verwende für bspw. `class` oder `icon` oder ähnl..
   post = "<a href='/articles/rss.xml'><img src='example.com/rss.jpg'></a>"
 [[main]]
   name = 'University'
   url = '/university'
+  # Idealerweise sollte um den Link und das RSS Icon noch ein wrapper gesteckt werden.
   post = "<a href='/university/rss.xml'><img src='example.com/rss.jpg'></a>"
   weight = 20
 [[main]]

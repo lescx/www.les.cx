@@ -1,4 +1,4 @@
-<nav class="menu" id="menu-main">
+<nav class="menu">
   <ul>
   {{- range site.Menus.main }}
     <li><a {{ with .Params.class -}} class="{{ . }}" {{ end -}} href="{{ .URL }}">{{ .Name }}</a></li>
