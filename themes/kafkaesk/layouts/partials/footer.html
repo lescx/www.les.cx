@@ -1,15 +1,16 @@
 <footer>
-  <hr>
-  <small>
-    <ul class="menu-legal">
+  <nav class="menu">
+    <ul>
       {{- range site.Menus.legal }}
         <li><a {{ with .Params.class -}} class="{{ . }}" {{ end -}} href="{{ .URL }}">{{ .Name }}</a></li>
       {{- end }}
     </ul>
-    <ul class="menu-protocol">
+  </nav>
+  <nav class="menu">
+    <ul>
       {{- range site.Menus.protocol }}
         <li><a {{ with .Params.class -}} class="{{ . }}" {{ end -}} href="{{ .URL }}">{{ .Name }}</a></li>
       {{- end }}
     </ul>
-  </small>
+  </nav>
 </footer>

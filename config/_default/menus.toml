@@ -2,19 +2,12 @@
   name = 'Articles'
   url = '/articles'
   weight = 10
-  pre = "<i class='fa fa-heart'></i><hr><hr><hr>"
-[[main]]
-  name = 'Articles RSS'
-  url = '/articles/rss'
-  weight = 11
+  post = "<a href='/articles/rss.xml'><img src='example.com/rss.jpg'></a>"
 [[main]]
   name = 'University'
   url = '/university'
+  post = "<a href='/university/rss.xml'><img src='example.com/rss.jpg'></a>"
   weight = 20
-[[main]]
-  name = 'University RSS'
-  url = '/university/rss'
-  weight = 21
 [[main]]
   name = 'Contact'
   url = '/contact'
