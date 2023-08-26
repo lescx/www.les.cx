@@ -5,8 +5,6 @@ publishDate = 2023-08-18
 draft = false
 +++
 
-# Contact Information
-
 You can find me on the following locations.
 
 ## Encrypted Email
