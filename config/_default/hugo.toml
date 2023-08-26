@@ -50,3 +50,7 @@ titlecasestyle = 'AP'
 [security]
   [security.exec]
     allow = ['^go$']
+
+[taxonomy]
+    module = 'modules'
+    semester = 'semesters'
