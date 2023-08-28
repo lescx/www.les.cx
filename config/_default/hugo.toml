@@ -11,6 +11,7 @@ defaultcontentlanguage = 'en'
 #defaultcontentlanguageinsubdir = false
 #disableAliases = false
 disablehugogeneratorinject = true
+disablekinds = 'rss'
 #disablelanguages
 #disablelivereload = false
 #disablepathtolower = false
@@ -35,7 +36,7 @@ summarylength = 70.0
 theme = ['kafkaesk']
 timeout = '30s'
 timezone = 'Europe/Berlin'
-title = 'les.cx site title'
+title = 'Luca Etienne Schulz'
 titlecasestyle = 'AP'
 
 [build]
