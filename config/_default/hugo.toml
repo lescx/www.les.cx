@@ -4,7 +4,6 @@
 
 baseurl = 'https://www.les.cx/'
 #buildExpired = false
-#canonifyURLs = false
 #cleanDestinationDir = false
 #copyright = ''
 defaultcontentlanguage = 'en'
@@ -52,6 +51,6 @@ titlecasestyle = 'AP'
   [security.exec]
     allow = ['^go$']
 
-[taxonomy]
+[taxonomies]
     module = 'modules'
     semester = 'semesters'
