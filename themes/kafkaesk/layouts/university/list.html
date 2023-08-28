@@ -1,0 +1,46 @@
+{{ define "main" }}
+  <h1>University Notes</h1>
+
+  {{ $studyNotes := where .Site.RegularPages "Section" "university" }}
+  {{ $sortedNotes := $studyNotes.ByParam "semester,module" }}
+
+  {{ $currentSemester := 0 }}
+  {{ $currentModule := "" }}
+
+  {{ range $i, $note := $sortedNotes }}
+    {{ $noteSemester := index $note.Params "semester" | int }}
+    {{ $noteModule := index $note.Params "module" }}
+    {{ $noteModuleNumber := index $note.Params "moduleNumber" }}
+    
+    {{ if ne $noteSemester $currentSemester }}
+      {{ if $currentModule }}
+        </ul>
+      {{ end }}
+      {{ if $currentSemester }}
+        </ul>
+      {{ end }}
+      {{ $currentSemester = $noteSemester }}
+      <h2>Semester {{ $noteSemester }}</h2>
+    {{ end }}
+
+    {{ if ne $noteModule $currentModule }}
+      {{ if $currentModule }}
+        </ul>
+      {{ end }}
+      {{ $currentModule = $noteModule }}
+      <h3>{{ $noteModule }}</h3>
+      <ul>
+    {{ end -}}
+
+    <li><a href="{{ $note.RelPermalink }}">{{ $note.Title }}</a> - Date: {{ dateFormat "January 2, 2006" $note.Date }}</li>
+
+    {{ $nextNote := index $sortedNotes (add $i 1) }}
+    {{ if or (ne $noteSemester (index $nextNote.Params "semester" | int)) (ne $noteModule (index $nextNote.Params "module")) }}
+      </ul>
+    {{ end }}
+  {{ end }}
+
+  {{ if or $currentSemester $currentModule }}
+    </ul>
+  {{ end }}
+{{ end }}
