@@ -2,10 +2,99 @@
 <html lang="{{ .Site.LanguageCode }}">
   {{ partial "head.html" . }}
   <body>
-  {{ partial "header.html" . }}
-    <main>
-    {{ block "main" . }}{{ end }}
-    </main>
-  {{ partialCached "footer.html" . -}}
+    <div id="grid-wrapper">
+      {{ partialCached "header.html" . }}
+      <!-- <main> or <article>? article wrapped inside main? main wrapped inside article? -->
+      <!-- and what about section? -->
+
+      <!-- <article>
+        The <article> HTML element represents a self-contained composition
+        in a document, page or site,
+        which is intended to be independently distributable or reusable
+        (e.g., in syndication)
+
+        Examples include:
+          - forum post
+          - magazine or newspaper article
+          - blog entry
+          - product card
+          - a user-submitted comment
+            - because it can be a quote on another site
+
+        Usage note:
+          - Each <article> should be identified,
+            typically by including a heading (<h1> - <h6> element)
+            as a child of the <article> element.
+          - The publication date and time of an <article> element
+            can be described using the datetime attribute
+            of a <time> element.
+      -->
+
+      <!-- <section>
+        The <section> HTML element represents a generic standalone section
+        of a document, which doesn't have a more specific semantic element
+        to represent it. Sections should always have a heading,
+        with very few exceptions.
+      -->
+
+      <!-- <aside>
+        If the contents represent useful tangential information
+        that works alongside the main content, but is not directly part of it
+        (like related links, or an author bio),
+        use an <aside>.
+      -->
+
+      <!-- <main>
+        The content of a <main> element should be unique to the document.
+        Content that is repeated across a set of documents or document sections
+        such as sidebars, navigation links, copyright information, site logos,
+        and search forms
+        shouldn't be included unless the search form is the main function
+        of the page.
+      -->
+
+      <!-- <div>
+        Styling wrapper.
+      -->
+
+      <!-- FAZIT:
+        Eigentlich erschließt es sich aus der Dokumentation von MDN:
+        Zumindest in meinem Falle der blog posts/uninotizen,
+        sollte ich Beides verwenden:
+
+        "<main> doesn't contribute to the document's outline;
+        that is, unlike elements such as <body>, headings such as h2,
+        and such, <main> doesn't affect the DOM's concept
+        of the structure of the page.
+        It's strictly informative."
+
+        <article> ist NICHT nur "strictly informative". Sie erfüllen
+        einen anderen Anwendungszweck.
+      -->
+
+      <!-- ToC
+
+        Der ToC sollte wie folgt gewrapped werden:
+
+        <aside>
+          <nav>
+            <ol>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ol>
+          </nav>
+        </aside>
+
+        <li> stellt dabei eine <h2> Überschrift im richtigen Text da.
+        Wie ich mit <h3> Überschriften umgehen soll, weiß ich noch nicht.
+        Noch eine <ol> in dem <li> gewrapped? Würde inhaltlich Sinn ergeben…
+
+      -->
+      <main id="site-main"> <!-- TODO: redundant id but needed for grid; cannot apply id to child as grid wouldn't be applied. -->
+        {{ block "main" . }}{{ end }}
+      </main>
+      {{ partialCached "footer.html" . -}}
+    </div>
   </body>
 </html>

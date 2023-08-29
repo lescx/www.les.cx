@@ -1,5 +1,7 @@
 {{ define "main" }}
-  <h1>University Notes</h1>
+  <h1>{{ .Title }}</h1>
+
+  {{ .Content }}
 
   {{ $studyNotes := where .Site.RegularPages "Section" "university" }}
   {{ $sortedNotes := $studyNotes.ByParam "semester,module" }}
@@ -8,8 +10,8 @@
   {{ $currentModule := "" }}
 
   {{ range $i, $note := $sortedNotes }}
-    {{ $noteSemester := index $note.Params "semester" | int }}
-    {{ $noteModule := index $note.Params "module" }}
+    {{ $noteSemester := index $note.Params "semesters" | int }}
+    {{ $noteModule := index $note.Params "modules" }}
     {{ $noteModuleNumber := index $note.Params "moduleNumber" }}
     
     {{ if ne $noteSemester $currentSemester }}
@@ -35,7 +37,7 @@
     <li><a href="{{ $note.RelPermalink }}">{{ $note.Title }}</a> - Date: {{ dateFormat "January 2, 2006" $note.Date }}</li>
 
     {{ $nextNote := index $sortedNotes (add $i 1) }}
-    {{ if or (ne $noteSemester (index $nextNote.Params "semester" | int)) (ne $noteModule (index $nextNote.Params "module")) }}
+    {{ if or (ne $noteSemester (index $nextNote.Params "semesters" | int)) (ne $noteModule (index $nextNote.Params "modules")) }}
       </ul>
     {{ end }}
   {{ end }}

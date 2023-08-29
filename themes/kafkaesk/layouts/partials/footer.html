@@ -1,6 +1,5 @@
-<footer>
-  <hr>
-  <nav class="menu">
+<footer id="site-footer">
+  <nav class="menu" id="legal-menu">
     <ul>
       {{- range site.Menus.legal }}
       <li>
@@ -9,7 +8,7 @@
       {{- end }}
     </ul>
   </nav>
-  <nav class="menu">
+  <nav class="menu" id="protocol-menu">
     <ul>
       {{- range site.Menus.protocol }}
       <li>
@@ -18,5 +17,4 @@
       {{- end }}
     </ul>
   </nav>
-
 </footer>

@@ -1,15 +1,22 @@
 {{ define "main" }}
+  <!-- TODO:
+    <section> sollte (fast) immer eine Überschrift haben.
+    Das hat <section> in meinen list pages nicht.
+    Die Überschrift ist inhaltlich ja immer "Liste von Artikeln über X"
+  -->
   <article>
     <h1>{{ .Title }}</h1>
     {{ .Content }}
+    <section>
+      <ul>
+        {{- range .Pages }}
+        <article>
+          <li>
+            <a href="{{ .Permalink }}">{{ .Date.Format "2006-01-02" }} : {{ .Title }}</a>
+          </li>
+        </article>
+        {{- end }}
+      </ul>
+    </section>
   </article>
-  <div>
-    <ul>
-      {{- range .Pages }}
-      <li>
-        <a href="{{ .Permalink }}">{{ .Date.Format "2006-01-02" }} : {{ .Title }}</a>
-      </li>
-      {{- end }}
-    </ul>
-  </div>
 {{ end }}

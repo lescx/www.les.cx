@@ -1,6 +1,9 @@
 {{ define "main" }}
   <article>
-    <h1>{{ .Title }}</h1>
-    {{ .Content }}
+    <hgroup>
+      <h1>{{ .Title }}</h1>
+      {{ .Summary }} <!-- Summary sollte hier WIRKLICH nur eine Zusammenfassung sein und nicht 70 Wörter! -->
+    </hgroup>
+      {{ .Content }}
   </article>
 {{ end }}
