@@ -1,16 +1,16 @@
 {{ define "main" }}
-  <article id="grid-article">
+  <article id="post">
     <hgroup>
       <h1>{{ .Title }}</h1>
     </hgroup>
     <!-- TODO: wrap .Content in a tag -->
     {{ .Content }}
   </article>
-  <aside id="grid-meta">
+  <aside id="meta">
     {{ .TableOfContents }}
     <b>TODO placeholder if no ToC</b>
   </aside>
-  <aside id="grid-annot">
+  <aside id="annot">
     <b>TODO grid-annot</b>
   </aside>
 {{ end }}

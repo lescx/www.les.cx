@@ -4,9 +4,9 @@
   <body>
     <div id="grid-wrapper">
       {{ partialCached "header.html" . }}
-      <main id="grid-main">
+      <!-- <main> -->
         {{ block "main" . }}{{ end }}
-      </main>
+      <!-- </main> -->
       {{ partialCached "footer.html" . -}}
     </div>
   </body>
