@@ -1,3 +1,14 @@
 {{ define "main" }}
-  {{ .Content }}
+  <article id="grid-article">
+    <hgroup>
+      <h1>{{ .Title }}</h1>
+    </hgroup>
+    {{ .Content }}
+  </article>
+  <aside id="grid-meta">
+    <b>todo grid-meta</b>
+  </aside>
+  <aside id="grid-annot">
+    <b>todo grid-annot</b>
+  </aside>
 {{ end }}

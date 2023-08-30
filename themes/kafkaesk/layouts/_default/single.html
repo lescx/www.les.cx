@@ -1,9 +1,15 @@
 {{ define "main" }}
-  <article>
+  <article id="grid-article">
     <hgroup>
       <h1>{{ .Title }}</h1>
-      {{ .Summary }} <!-- Summary sollte hier WIRKLICH nur eine Zusammenfassung sein und nicht 70 Wörter! -->
     </hgroup>
-      {{ .Content }}
+    <!-- TODO: wrap .Content in a tag -->
+    {{ .Content }}
   </article>
+  <aside id="grid-meta">
+    {{ .TableOfContents }}
+  </aside>
+  <aside id="grid-annot">
+    <b>todo grid-annot</b>
+  </aside>
 {{ end }}

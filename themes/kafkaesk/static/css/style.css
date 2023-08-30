@@ -1,38 +1,35 @@
-body { 
-  margin:40px auto;
-  max-width:650px;
-  line-height:1.6;
-  font-size:18px;
-  color:#444;
-  padding:0 10px;
-}
-
-.menu > ul > li {
-  list-style-type: none;
-}
-
-h1, h2, h3 {
-  line-height: 1.2
-}
-
-/* ----------------- */
-
 #grid-wrapper {
   display: grid;
   grid-template-areas:
     ". header ."
-    "meta main annot"
+    "main main main"
     ". footer .";
 }
 
-#site-header {
+#grid-header {
   grid-area: header;
 }
 
-#site-main {
+#grid-main {
   grid-area: main;
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-template-areas:
+    "meta article annot";
 }
 
-#site-footer {
+#grid-article {
+  grid-area: article;
+}
+
+#grid-meta {
+  grid-area: meta;
+}
+
+#grid-annot {
+  grid-area: annot;
+}
+
+#grid-footer {
   grid-area: footer;
 }

@@ -4,8 +4,12 @@
     Das hat <section> in meinen list pages nicht.
     Die Überschrift ist inhaltlich ja immer "Liste von Artikeln über X"
   -->
-  <article>
-    <h1>{{ .Title }}</h1>
+  <article id="grid-article">
+    <hgroup>
+      <h1>{{ .Title }}</h1>
+      <p>{{ .Summary }}<p>
+    </hgroup>
+    <!-- TODO: wrap .Content in a tag -->
     {{ .Content }}
     <section>
       <ul>
@@ -19,4 +23,10 @@
       </ul>
     </section>
   </article>
+  <aside id="grid-meta">
+    <b>todo grid-meta</b>
+  </aside>
+  <aside id="grid-annot">
+    <b>todo grid-annot</b>
+  </aside>
 {{ end }}
