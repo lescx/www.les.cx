@@ -3,9 +3,7 @@
     <ul>
     {{- range site.Menus.main }}
       <li>
-        <a {{ with .Params.class -}} class="{{ . }}" {{ end -}} href="{{ .URL }}">
-          {{ .Name }}
-        </a>
+        <a {{ with .Params.class -}} class="{{ . }}" {{ end -}} href="{{ .URL }}">{{ .Name }}</a>
       </li>
       {{ .Post }}
     {{ end -}}

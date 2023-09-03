@@ -14,12 +14,20 @@
   url = '/university'
   # Idealerweise sollte um den Link und das RSS Icon noch ein wrapper gesteckt werden.
   post = '<a href="/rss" class="rss_icon" title="rss feed"><svg width=10 height=10 viewBox="0 0 448 448" xmlns="http://www.w3.org/2000/svg"> <g><circle cx="64" cy="384" r="64" fill="#394648"/></g> <g><path d="M0,149.344v85.344c117.632,0,213.344,95.68,213.344,213.312h85.312C298.656,283.328,164.672,149.344,0,149.344z" fill="#CBAC88"/></g> <g><path d="M0,0v85.344C200,85.344,362.688,248,362.688,448H448C448,200.96,247.04,0,0,0z" fill="#F8E9E9"/></g> /svg></a>'
-					
   weight = 20
 [[main]]
   name = 'Contact'
   url = '/contact'
   weight = 30
+
+[[legal]]
+  name = 'copyright'
+  url = '/copyright'
+  weight = 10
+[[legal]]
+  name = 'privacy policy'
+  url = '/privacy-policy'
+  weight = 20
 
 [[protocol]]
   name = 'HTTPS'
@@ -33,13 +41,3 @@
   name = 'Tor'
   url = 'http://placeholderlescx.onion'
   weight = 30
-
-[[legal]]
-  name = 'copyright'
-  url = '/copyright'
-  weight = 10
-[[legal]]
-  name = 'privacy policy'
-  url = '/privacy-policy'
-  weight = 20
-
