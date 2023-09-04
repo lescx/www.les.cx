@@ -4,11 +4,11 @@ publishDate = 2023-08-23T18:25:19+02:00
 draft = false
 +++
 
-There is no tracking on this site. No cookies, no super-cookies, no fingerprinting, no canvas-fingerprinting.
-I do not embed anything from third party sites - not even Cloudflare, AWS or other crap.
-I don't use JavaScript. Everything is statically served on the server.
-I don't have analytics on the site. The only thing I can see about how often my website is clicked is "my server uploaded 30GB of data today". That's it.
+There is no tracking on this site.
+I do not embed anything from third-party sites, not even Cloudflare, AWS, or any other services.
+There is no need for me to use JavaScript; hence, I avoid using it.
+I do not collect or sell any data, not even the frequency of my website's access.
 
-It's hosted by the friends from Karlsruhe, [netcup.de](https://netcup.de). My server is in Nuremberg.
+[les.cx](https://www.les.cx) is hosted by the friends from Karlsruhe [netcup.de](https://netcup.de). My server is located in Nuremberg.
 
-The email is hosted by the lovely people at [mailbox.org](https://mailbox.org) in Berlin.
+Email provider are the lovely people at [mailbox.org](https://mailbox.org) from Berlin.
