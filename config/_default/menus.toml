@@ -3,17 +3,17 @@
   url = '/'
   weight = 1
 [[main]]
-  name = 'Articles'
-  url = '/articles'
+  name = 'Projects'
+  url = '/projects'
   weight = 10
   # Idealerweise sollte um den Link und das RSS Icon noch ein wrapper gesteckt werden.
   # Es wäre wohl besser, wenn ich ein paar menu.main.params verwende für bspw. `class` oder `icon` oder ähnl..
-  post = '<a href="/rss" class="rss_icon" title="rss feed"><svg width=10 height=10 viewBox="0 0 448 448" xmlns="http://www.w3.org/2000/svg"> <g><circle cx="64" cy="384" r="64" fill="#FF9233"/></g> <g><path d="M0,149.344v85.344c117.632,0,213.344,95.68,213.344,213.312h85.312C298.656,283.328,164.672,149.344,0,149.344z" fill="#FF9233"/></g> <g><path d="M0,0v85.344C200,85.344,362.688,248,362.688,448H448C448,200.96,247.04,0,0,0z" fill="#FF9233"/></g> /svg></a>'
+  post = '<a href="/rss" class="rss_icon" title="rss feed"><svg width=12 height=12 viewBox="0 0 448 448" xmlns="http://www.w3.org/2000/svg"> <g><circle cx="64" cy="384" r="64" fill="#FF9233"/></g> <g><path d="M0,149.344v85.344c117.632,0,213.344,95.68,213.344,213.312h85.312C298.656,283.328,164.672,149.344,0,149.344z" fill="#FF9233"/></g> <g><path d="M0,0v85.344C200,85.344,362.688,248,362.688,448H448C448,200.96,247.04,0,0,0z" fill="#FF9233"/></g> /svg></a>'
 [[main]]
   name = 'University'
   url = '/university'
   # Idealerweise sollte um den Link und das RSS Icon noch ein wrapper gesteckt werden.
-  post = '<a href="/rss" class="rss_icon" title="rss feed"><svg width=10 height=10 viewBox="0 0 448 448" xmlns="http://www.w3.org/2000/svg"> <g><circle cx="64" cy="384" r="64" fill="#FF9233"/></g> <g><path d="M0,149.344v85.344c117.632,0,213.344,95.68,213.344,213.312h85.312C298.656,283.328,164.672,149.344,0,149.344z" fill="#FF9233"/></g> <g><path d="M0,0v85.344C200,85.344,362.688,248,362.688,448H448C448,200.96,247.04,0,0,0z" fill="#FF9233"/></g> /svg></a>'
+  post = '<a href="/rss" class="rss_icon" title="rss feed"><svg width=12 height=12 viewBox="0 0 448 448" xmlns="http://www.w3.org/2000/svg"> <g><circle cx="64" cy="384" r="64" fill="#FF9233"/></g> <g><path d="M0,149.344v85.344c117.632,0,213.344,95.68,213.344,213.312h85.312C298.656,283.328,164.672,149.344,0,149.344z" fill="#FF9233"/></g> <g><path d="M0,0v85.344C200,85.344,362.688,248,362.688,448H448C448,200.96,247.04,0,0,0z" fill="#FF9233"/></g> /svg></a>'
   weight = 20
 [[main]]
   name = 'Contact'

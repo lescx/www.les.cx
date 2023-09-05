@@ -1,6 +1,7 @@
 :root {
     --text-color: #444;
-    --link-color: #2274a5;
+    --background-color: white;
+    --link-color: #2b92ca;
 }
 
 body {
@@ -8,11 +9,15 @@ body {
   margin: 40px auto;
   max-width: 650px;
   line-height: 1.6;
-  font-size: 18px;
+  font-size: 1.1em;
   color: var(--text-color);
-
-  h1,h2,h3,h4{line-height:1.2;}
+  background: var(--background-color);
 }
+
+h1{font-size:2.2rem;}
+h2{font-size:1.9rem;}
+h3{font-size:1.6rem;}
+h4{font-size:1.3rem;}
 
 .menu{text-align: right;}
 .menu li {
@@ -23,11 +28,15 @@ body {
 
 a,a:visited {color: var(--link-color);}
 
+#newest-university {
+  padding: 10px;
+  border: 1px solid black;
+}
+
 /* Dark mode support */
 @media (prefers-color-scheme: dark) {
-    body{background: var(--background-color);}
     :root {
-        --background-color: #262626;
-        --text-color: #fff;
+        --text-color: #eee;
+        --background-color: #444;
     }
 }
