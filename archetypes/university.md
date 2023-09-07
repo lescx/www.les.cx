@@ -1,7 +1,6 @@
 +++
 draft = true
-# title should be a made of "module + subtitle"
-#title = '{{ replace .Name "-" " " | title }}'
+title = '{{ replace .Name "-" " " | title }}'
 description = ''
 summary = ''
 

@@ -1,23 +1,11 @@
-:root {
-    --text-color: #444;
-    --background-color: white;
-    --link-color: #2b92ca;
-}
-
 body {
   padding: 0 10px;
   margin: 40px auto;
-  max-width: 650px;
+  max-width: 680px;
   line-height: 1.6;
-  font-size: 1.1em;
-  color: var(--text-color);
-  background: var(--background-color);
+  overflow-wrap: break-word;
+  font-family: sans-serif;
 }
-
-h1{font-size:2.2rem;}
-h2{font-size:1.9rem;}
-h3{font-size:1.6rem;}
-h4{font-size:1.3rem;}
 
 .menu{text-align: right;}
 .menu li {
@@ -26,7 +14,7 @@ h4{font-size:1.3rem;}
   padding: 4px;
 }
 
-a,a:visited {color: var(--link-color);}
+a,a:visited {color: black;}
 
 #newest-university {
   padding: 10px;
@@ -35,8 +23,8 @@ a,a:visited {color: var(--link-color);}
 
 /* Dark mode support */
 @media (prefers-color-scheme: dark) {
-    :root {
-        --text-color: #eee;
-        --background-color: #444;
-    }
+  body {
+    color: white;
+    background: black;
+  }
 }

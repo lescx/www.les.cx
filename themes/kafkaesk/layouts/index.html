@@ -4,14 +4,5 @@
       <h1>{{ .Title }}</h1>
     </hgroup>
     {{ .Content }}
-
-    <article id="newest-university">
-    <h2>Newest University Post</h2>
-    {{ with (index (where site.RegularPages "Type" "university").ByDate.Reverse 0) }}
-      <a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
-      {{ .Summary }}
-    {{ end }}
-    </article>
-    
   </article>
 {{ end }}
