@@ -1,6 +1,6 @@
 +++
 draft = false
-aliases = ['']
+aliases = ['vorbereitungskurs-mathe-online-aussagenlogik']
 
 title = 'Vorbereitungskurs Mathe Online Aussagenlogik'
 subtitle = ''
