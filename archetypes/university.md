@@ -17,6 +17,6 @@ keywords = []
 date = {{ .Date }}
 publishDate = {{ .Date }}
 
-includeToc = true
+includeToC = true
 includeKaTeX = false
 +++

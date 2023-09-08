@@ -1,7 +1,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="/style.css">
+  {{ $css := resources.Get "style.css" | resources.Minify }}
+  <link rel="stylesheet" type="text/css" href="{{ $css.Permalink }}">
   <title>{{ block "title" . }}{{- partial "title.html" . -}}{{ end }}</title>
   {{ if .Params.includeKaTeX }}{{ partial "katex.html" . }}{{ end }}
 </head>

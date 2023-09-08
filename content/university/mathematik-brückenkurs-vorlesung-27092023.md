@@ -15,5 +15,5 @@ keywords = []
 date = 2023-09-08T08:30:07+02:00
 publishDate = 2023-09-27T00:00:01+02:00
 
-includeToc = true
+includeToC = true
 +++

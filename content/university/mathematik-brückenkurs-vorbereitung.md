@@ -13,7 +13,7 @@ keywords = []
 date = 2023-09-08T08:16:12+02:00
 publishDate = 2023-09-08T08:16:12+02:00
 
-includeToc = true
+includeToC = true
 +++
 
 ## Notizen zu den Vorlesungen

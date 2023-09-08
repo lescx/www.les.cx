@@ -17,7 +17,7 @@ keywords = []
 date = 2023-09-08T15:20:22+02:00
 publishDate = 2023-09-08T15:20:22+02:00
 
-includeToc = true
+includeToC = true
 includeKaTeX = true
 +++
 
