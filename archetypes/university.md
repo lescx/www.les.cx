@@ -1,6 +1,8 @@
 +++
 draft = true
 title = '{{ replace .Name "-" " " | title }}'
+subtitle = ''
+topic = ''
 description = ''
 summary = ''
 
@@ -10,6 +12,7 @@ moduleNumber = ''
 
 keywords = []
 
+date = {{ .Date }}
 publishDate = {{ .Date }}
 
 includeToc = true

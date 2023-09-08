@@ -37,7 +37,7 @@
         <ul>
       {{ end -}}
 
-      <li><a href="{{ $note.RelPermalink }}">{{ $note.Title }}</a> - Date: {{ dateFormat "January 2, 2006" $note.Date }}</li>
+      <li><a href="{{ $note.RelPermalink }}">{{ $note.Title }}</a> <time datetime="{{ dateFormat "2006-02-01" $note.PublishDate}}">{{ dateFormat "2. January 2006" $note.PublishDate }}</time></li>
 
       {{ $nextNote := index $sortedNotes (add $i 1) }}
       {{ if or (ne $noteSemester (index $nextNote.Params "semesters" | int)) (ne $noteModule (index $nextNote.Params "modules")) }}
