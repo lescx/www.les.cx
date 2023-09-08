@@ -1,5 +1,7 @@
 +++
 draft = true
+aliases = ['']
+
 title = '{{ replace .Name "-" " " | title }}'
 subtitle = ''
 topic = ''
