@@ -18,7 +18,7 @@ includeToc = true
 
 ## Notizen zu den Vorlesungen
 
-Zu jeder Vorlesung werden noch Skripte bereitgestellt, teilweise bereits vor der Vorlesung, teilweise dann zeitnah nach der Vorlesung. Des Weiteren werden wir Ihnen nach Ende des Brückenkurses, also Anfang Oktober 2023, Videos zu den Vorlesungen, welche in den letzten Jahren entstanden sind, zur Verfügung stellen.
+Videos zu den Vorlesungen der letzten Jahre wird nach Ende des Brückenkurses bereitgestellt.
 
 ## Notizen zu den Übungen
 
