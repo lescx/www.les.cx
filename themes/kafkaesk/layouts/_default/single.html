@@ -3,6 +3,10 @@
     <hgroup>
       <h1>{{ .Title }}</h1>
     </hgroup>
+    <h2>Table of Contents</h2>
+    {{ if .Params.includeToc }}
+      {{ .TableOfContents }}
+    {{ end }}
     <!-- TODO: wrap .Content in a tag -->
     {{ .Content }}
   </article>

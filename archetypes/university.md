@@ -18,4 +18,5 @@ date = {{ .Date }}
 publishDate = {{ .Date }}
 
 includeToc = true
+includeKaTeX = false
 +++
