@@ -1,11 +1,14 @@
 body {
-  padding: 0 10px;
-  margin: 40px auto;
+  margin: auto;
   max-width: 680px;
   line-height: 1.6;
   overflow-wrap: break-word;
   font-family: sans-serif;
 }
+
+a,a:visited {color: black;}
+h1{margin-bottom: 0;}
+h2,h3{margin-top: 2em;}
 
 .menu{text-align: right;}
 .menu li {
@@ -14,13 +17,11 @@ body {
   padding: 4px;
 }
 
-table {border-spacing: 0;}
 th, td {
   padding: 0 18px;
   border-bottom: 1px solid black;
 }
 
-a,a:visited {color: black;}
 
 /* Dark mode support */
 @media (prefers-color-scheme: dark) {
@@ -29,7 +30,5 @@ a,a:visited {color: black;}
     background: black;
   }
   a,a:visited {color: white;}
-  th, td {
-    border-bottom: 1px solid white;
-  }
+  th, td {border-bottom: 1px solid white;}
 }
