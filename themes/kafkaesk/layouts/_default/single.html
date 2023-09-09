@@ -3,8 +3,8 @@
     <hgroup>
       <h1>{{ .Title }}</h1>
     </hgroup>
-    <h2>Table of Contents</h2>
     {{ if .Params.includeToc }}
+      <h2>Table of Contents</h2>
       {{ .TableOfContents }}
     {{ end }}
     <!-- TODO: wrap .Content in a tag -->
