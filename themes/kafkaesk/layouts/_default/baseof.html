@@ -2,11 +2,9 @@
 <html lang="{{ .Site.LanguageCode }}">
   {{ partial "head.html" . }}
   <body>
-    <div id="grid-wrapper">
-      <!-- <main> -->
-        {{ block "main" . }}{{ end }}
-      <!-- </main> -->
-      {{ partialCached "footer.html" . -}}
-    </div>
+    <main>
+    {{ block "main" . }}{{ end }}
+    </main>
+    {{ partialCached "footer.html" . -}}
   </body>
 </html>

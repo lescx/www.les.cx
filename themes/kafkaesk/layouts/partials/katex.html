@@ -1,6 +1,7 @@
 <!-- KaTeX, if needed -->
 {{ $katexcss := resources.Get "katex.min.css" }}
 <link rel="stylesheet" type="text/css" href="{{ $katexcss.Permalink }}">
+
 {{ $katexjs := resources.Get "katex.min.js" }}
 <script defer src="{{ $katexjs.Permalink }}"></script>
 
