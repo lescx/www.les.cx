@@ -20,7 +20,6 @@ pluralizelisttitles = true
 #refLinksNotFoundURL
 #rssLimit = -1
 summarylength = 70.0
-theme = ['kafkaesk']
 timeout = '30s'
 timezone = 'Europe/Berlin'
 title = 'Luca Etienne Schulz'
