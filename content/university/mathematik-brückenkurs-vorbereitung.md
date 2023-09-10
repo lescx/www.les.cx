@@ -33,3 +33,7 @@ Ort: [Seminargebäude 2, Raum 221 (SE2/221)](https://navigator.tu-dresden.de/kar
 > der Raum 221 befindet sich im 2. Obergeschoss, siehe auch Gebäudeplan (darin ist der Raum rot eingefärbt)
      
 ---
+
+## Links
+
+- [Vorbereitungskurs Online](https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/11530829826/CourseNode/93771506803070/93771506803070/?3)
