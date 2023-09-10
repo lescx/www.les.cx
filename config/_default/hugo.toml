@@ -43,8 +43,8 @@ titlecasestyle = 'AP'
 
 [outputFormats]
   [outputFormats.Atom]
-    mediaType = application/atom+xml
-    baseName = index
+    mediaType = 'application/atom+xml'
+    baseName = 'index'
     inPlainText = false
 
 [outputs]
