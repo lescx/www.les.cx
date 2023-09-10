@@ -25,7 +25,7 @@ Begründer der Mengenlehre: Georg Cantor.
 
 ---
 
-Gute Zusammenfassung: [Mengen und ihre Eigenschaften](https://www.grund-wissen.de/mathematik/mengenlehre/mengen.html).
+Empfehlenswerte Zusammenfassung: [Mengen und ihre Eigenschaften](https://www.grund-wissen.de/mathematik/mengenlehre/mengen.html).
 
 Das ganze Projekt [grund-wissen.de](https://www.grund-wissen.de/index.html) ist im übrigen auch auf [GitHub](https://github.com/grund-wissen/grundwissen-mathematik) einsehbar.
 
