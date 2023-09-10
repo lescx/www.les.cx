@@ -36,3 +36,16 @@ titlecasestyle = 'AP'
 [taxonomies]
     module = 'modules'
     semester = 'semesters'
+
+[mediaTypes]
+  [mediaTypes.'application/atom+xml']
+    suffixes = ['xml']
+
+[outputFormats]
+  [outputFormats.Atom]
+    mediaType = application/atom+xml
+    baseName = index
+    inPlainText = false
+
+[outputs]
+  home = ['html', 'Atom']
