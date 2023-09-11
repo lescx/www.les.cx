@@ -12,8 +12,8 @@
       {{ range .Pages }}
         <nav>
           <li>
+            <time datetime="{{ .PublishDate.Format "2006-02-01" }}">{{ .PublishDate.Format "2006-02-01" }}</time>
             <a href="{{ .Permalink }}">{{ .Title }}</a>
-            <time datetime="{{ .PublishDate.Format "2006-02-01" }}">({{ .PublishDate.Format "02.09.2006" }})</time>
           </li>
         </nav>
       {{ end }}
