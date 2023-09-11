@@ -7,7 +7,6 @@ body {
 }
 
 a,a:visited {color: black;}
-h1{margin-bottom: 0;}
 h2,h3{margin-top: 2em;}
 
 .menu{text-align: right;}
@@ -21,6 +20,8 @@ th, td {
   padding: 0 18px;
   border-bottom: 1px solid black;
 }
+
+.callout-content{margin: 0 2em;}
 
 /* Dark mode support */
 @media (prefers-color-scheme: dark) {

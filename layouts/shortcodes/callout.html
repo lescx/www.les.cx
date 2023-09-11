@@ -1,0 +1,6 @@
+{{- $title := .Get "title" | default (.Get 0) -}}
+{{- $content := .Get "content" | default (.Get 1) -}}
+<div {{ with $title }}class="callout {{ . }}"{{ end }}>
+  <strong class="callout-title">{{ $title }}</strong>
+  <p class="callout-content">{{ $content }}</p>
+</div>
