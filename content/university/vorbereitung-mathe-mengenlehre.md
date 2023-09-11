@@ -21,13 +21,7 @@ includeToC = true
 includeKaTeX = true
 +++
 
-Begründer der Mengenlehre: Georg Cantor.
-
----
-
-Empfehlenswerte Zusammenfassung: [Mengen und ihre Eigenschaften](https://www.grund-wissen.de/mathematik/mengenlehre/mengen.html).
-
-Das ganze Projekt [grund-wissen.de](https://www.grund-wissen.de/index.html) ist im übrigen auch auf [GitHub](https://github.com/grund-wissen/grundwissen-mathematik) einsehbar.
+Der Begründer der Mengenlehre ist Georg Cantor. Die aktuelle Definition, was eine Menge ist, kommt allerdings nicht von ihm. Ohne dazu eine konkrete Erklärung bieten zu können: seine Definition erlaubte einige Widersprüche. Die korrekte, widerspruchsfreie Definition von Mengen, Elementen und co. kommt später im Studium.
 
 ## Mengengleichheit
 
@@ -39,11 +33,8 @@ $$
 A = B \iff \forall x: (x \in A \iff x \in B)
 $$
 
-*Das heißt, die Reihenfolge der Elemente in einer Menge spielt keine Rolle.*
-
----
-
-In einer Menge kann ein Element mehrfach aufgeführt werden. Diese Menge "besitzt" dieses Element dennoch nur einmal.
+- Die Reihenfolge der Elemente in einer Menge spielt keine Rolle.
+- In einer Menge kann ein Element mehrfach aufgeführt werden. Diese Menge "besitzt" dieses Element dennoch nur einmal.
 
 **Beispiel**
 
@@ -57,9 +48,7 @@ $$
 M = \set{x|P(x)}
 $$
 
-**Sprechweise**
-
-*$M$ ist die Menge aller $x$, für die die Aussage $P(x)$ wahr ist.*
+- **Sprechweise:** $M$ ist die Menge aller $x$, für die die Aussage $P(x)$ wahr ist.*
 
 **Beispiel**
 
@@ -173,5 +162,10 @@ Zwei Mengen heißen **disjunkt**, wenn ihr Durchschnitt die leere Menge $\emptys
 
 ## Differenz und Komplement
 
-- [Wikipedia](https://de.wikipedia.org/wiki/Mengenlehre#Schnittmenge)
+---
+
+## Read further…
+
+- Empfehlenswerte Zusammenfassung: [Mengen und ihre Eigenschaften](https://www.grund-wissen.de/mathematik/mengenlehre/mengen.html). Das ganze Projekt [grund-wissen.de/mathe](https://www.grund-wissen.de/mathematik/index.html) ist im übrigen auch auf [GitHub](https://github.com/grund-wissen/grundwissen-mathematik) einsehbar.
+- [Wikipedia](https://de.wikipedia.org/wiki/Mengenlehre)
 - [OPAL](https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/11530829826/CourseNode/94241506426765)
