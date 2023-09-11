@@ -1,13 +1,5 @@
 <!-- KaTeX, if needed -->
-{{ $katexcss := resources.Get "katex.min.css" }}
-<link rel="stylesheet" type="text/css" href="{{ $katexcss.Permalink }}">
-
-{{ $katexjs := resources.Get "katex.min.js" }}
-<script defer src="{{ $katexjs.Permalink }}"></script>
-
-{{ $katexautorender := resources.Get "auto-render.min.js" }}
-<script defer src="{{ $katexautorender.Permalink }}" onload="renderMathInElement(document.body);"></script>
-
-{{ $katexinline := resources.Get "inline-render.js" }}
-<script defer src="{{ $katexinline.Permalink }}"></script>
-
+{{ $katexcss := resources.Get "katex.min.css" }}<link rel="stylesheet" type="text/css" href="{{ $katexcss.Permalink }}">
+{{ $katexjs := resources.Get "katex.min.js" }}<script defer src="{{ $katexjs.Permalink }}"></script>
+{{ $katexautorender := resources.Get "auto-render.min.js" }}<script defer src="{{ $katexautorender.Permalink }}" onload="renderMathInElement(document.body);"></script>
+{{ $katexinline := resources.Get "inline-render.js" }}<script defer src="{{ $katexinline.Permalink }}"></script>

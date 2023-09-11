@@ -1,29 +1,25 @@
-# Default environments are `development` with hugo server and `production` with hugo.
-
+copyright = 'Except when noted, the contents of this site are licensed under the Creative Commons Attribution 4.0 License, and code is licensed under a BSD license. See https://www.les.cx/copyright for more information'
 baseurl = 'https://www.les.cx/'
 cleanDestinationDir = true
 defaultcontentlanguage = 'en'
 #defaultcontentlanguageinsubdir = false
 disablehugogeneratorinject = true
-disablekinds = ['rss']
-enableemoji = false
-enablegitinfo = false
+disableKinds = ['taxonomy']
+enablegitinfo = true
 #enableinlineshortcodes = false
 #enablemissingtranslationplaceholders = false
 enablerobotstxt = true
-hascjklanguage = false
 languagecode = 'en-us'
-paginate = 10.0
-paginatepath = 'page'
-pluralizelisttitles = true
-#refLinksErrorLevel = 'ERROR'
-#refLinksNotFoundURL
-#rssLimit = -1
-summarylength = 70.0
 timeout = '30s'
 timezone = 'Europe/Berlin'
 title = 'Luca Etienne Schulz'
-titlecasestyle = 'AP'
+
+[author]
+  name = 'Luca Etienne Schulz'
+  email = 'luca@les.cx'
+  github = 'https://github.com/lescx'
+  codeberg = 'https://codeberg.org/les/www.les.cx'
+  nostr = 'npub1wnwxt4hg3xg6egc4v8r5zjclf0v2745yq50t5uzhx794h2z8gwwqszpm3w'
 
 [build]
   nojsconfiginassets = true
@@ -33,18 +29,10 @@ titlecasestyle = 'AP'
     allow = ['^go$']
 
 [taxonomies]
-    module = 'modules'
-    semester = 'semesters'
-
-[mediaTypes]
-  [mediaTypes.'application/atom+xml']
-    suffixes = ['xml']
-
-[outputFormats]
-  [outputFormats.Atom]
-    mediaType = 'application/atom+xml'
-    baseName = 'index'
-    inPlainText = false
+  module = 'modules'
+  semester = 'semesters'
 
 [outputs]
-  home = ['html', 'Atom']
+  home = 'HTML'
+  taxonomy = ['html']
+  term = ['html']

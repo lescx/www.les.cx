@@ -1,8 +1,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {{ $css := resources.Get "style.css" | resources.Minify }}
-  <link rel="stylesheet" type="text/css" href="{{ $css.Permalink }}">
+  {{ $css := resources.Get "style.css" | resources.Minify }}<link rel="stylesheet" type="text/css" href="{{ $css.Permalink }}">
   <title>{{ block "title" . }}{{- partial "title.html" . -}}{{ end }}</title>
-  {{ if .Params.includeKaTeX }}{{ partial "katex.html" . }}{{ end }}
+  {{ if .Params.includeKaTeX }}{{- partial "katex.html" . -}}{{ end }}
+  {{ with .OutputFormats.Get "rss" -}}{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}{{ end -}}
 </head>
