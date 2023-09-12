@@ -19,16 +19,3 @@
   name = 'privacy policy'
   url = '/privacy-policy'
   weight = 20
-
-[[protocol]]
-  name = 'HTTPS'
-  url = '/'
-  weight = 10
-[[protocol]]
-  name = 'Gemini'
-  url = 'gemini://les.cx'
-  weight = 20
-[[protocol]]
-  name = 'Tor'
-  url = 'http://placeholderlescx.onion'
-  weight = 30
