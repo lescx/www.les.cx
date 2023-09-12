@@ -8,7 +8,6 @@ disableKinds = ['taxonomy']
 enablegitinfo = true
 #enableinlineshortcodes = false
 #enablemissingtranslationplaceholders = false
-enablerobotstxt = true
 languagecode = 'en-us'
 timeout = '30s'
 timezone = 'Europe/Berlin'
