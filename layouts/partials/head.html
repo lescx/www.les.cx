@@ -8,9 +8,8 @@
   <meta content=website property=og:type>
   <link href="https://www.les.cx" rel=canonical>
   {{ $css := resources.Get "style.css" | resources.Minify | resources.Fingerprint }}
-  <link rel="preload" type="text/css" href="{{ $css.Permalink }}" integrity="{{ $css.Data.Integrity }}" as="style">
+  <link rel="stylesheet" type="text/css" href="{{ $css.Permalink }}" integrity="{{ $css.Data.Integrity }}">
   <title>{{ block "title" . }}{{- partial "title.html" . -}}{{ end }}</title>
   {{ if .Params.includeKaTeX }}{{ partial "katex.html" . }}{{ end }}
   {{ with .OutputFormats.Get "rss" -}}{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}{{ end -}}
-  <link rel="stylesheet" href="style.css" />
 </head>
