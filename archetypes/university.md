@@ -2,10 +2,15 @@
 draft = true
 aliases = ['']
 
+
 title = '{{ replace .Name "-" " " | title }}'
 subtitle = ''
-topic = ''
+# SEO ~150 chars max
 description = ''
+
+topic = ''
+
+# eq tl;dr
 summary = ''
 
 semesters = 1

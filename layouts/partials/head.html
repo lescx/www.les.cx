@@ -2,9 +2,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta content="https://www.les.cx" property=og:url>
-  <meta content="Luca Etienne Schulz" property=og:site_name>
-  <meta content="Security researcher working on hardware/OS hardening." name=description>
-  <meta content="Security researcher working on hardware/OS hardening." property=og:description>
+  <meta content="{{ .Site.Title }}" property=og:site_name>
+  <meta content="{{ .Description }}" name=description>
+  <meta content="{{ .Description }}" property=og:description>
   <meta content=website property=og:type>
   <link href="https://www.les.cx" rel=canonical>
   {{ $css := resources.Get "style.css" | resources.Minify | resources.Fingerprint }}<link rel="stylesheet" type="text/css" href="{{ $css.Permalink }}" integrity="{{ $css.Data.Integrity }}">
