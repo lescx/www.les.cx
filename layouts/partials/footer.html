@@ -1,9 +1,9 @@
 <footer>
   <nav class="menu">
     <ul>
-      {{- range site.Menus.legal }}
-      <li><a {{ with .Params.class -}} class="{{ . }}" {{ end }} href="{{ .URL }}">{{ .Name }}</a></li>
-      {{- end }}
+      {{- range site.Menus.legal -}}
+      <li><a href="{{ .URL }}">{{- .Name -}}</a></li>
+      {{- end -}}
     </ul>
   </nav>
 </footer>

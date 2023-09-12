@@ -2,6 +2,14 @@
   <article id="post">
     <hgroup>
       <h1>{{ .Title }}</h1>
+      {{- $pubdate := .PublishDate.Format "2006-01-02 15:04 Uhr" }}
+      <p>Created: <time datetime="{{ .PublishDate }} title="{{ .PublishDate }}>{{ $pubdate }}</time></p>
+      {{- if .Lastmod }}
+      {{- $lastmod := .Lastmod.Format "2006-01-02 15:04 Uhr" }}
+        {{- if ne $lastmod $pubdate }}
+        <p>Updated: <time datetime="{{ .Lastmod }}" title="{{ .Lastmod }}">{{ $lastmod }}</time></p>
+        {{- end }}
+      {{- end }}
     </hgroup>
     {{ if .Params.includeToc }}
       <h2>Table of Contents</h2>

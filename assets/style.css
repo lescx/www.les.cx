@@ -19,7 +19,7 @@ h2,h3{margin-top: 2em;font-size: 1.25em}
 .menu{text-align: right;}
 .menu li {
   display: inline;
-  padding: 4px;
+  padding-left: .75em;
 }
 
 th, td {
@@ -30,13 +30,14 @@ th, td {
 .callout-content{margin: 0 2em;}
 .postdate{
   float: right;
-  color: rgba(0, 0, 0, 0.5);
+  color: grey;
 }
+
+footer{margin-top: 5em;}
 
 @media (prefers-color-scheme: dark) {
   :root {
     --fg-color: white;
     --bg-color: black;
   }
-  .postdate{color: rgba(255, 255, 255, 0.7);}
 }
