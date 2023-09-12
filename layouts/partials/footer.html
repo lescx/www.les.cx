@@ -1,9 +1,19 @@
 <footer>
-  <nav class="menu">
-    <ul>
-      {{- range site.Menus.legal -}}
-      <li><a href="{{ .URL }}">{{- .Name -}}</a></li>
+  <hr>
+  <div class="nav-wrapper">
+    <nav class="social">
+      <ul>
+      {{- range site.Menus.social -}}
+        <li><a href="{{ .URL }}">{{- .Name -}}</a></li>
       {{- end -}}
-    </ul>
-  </nav>
+      </ul>
+    </nav>
+    <nav class="legal">
+      <ul>
+        {{- range site.Menus.legal -}}
+        <li><a href="{{ .URL }}">{{- .Name -}}</a></li>
+        {{- end -}}
+      </ul>
+    </nav>
+  </div>
 </footer>

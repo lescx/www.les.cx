@@ -16,11 +16,14 @@ body {
 a,a:visited {color: var(--fg-color);}
 h2,h3{margin-top: 2em;font-size: 1.25em}
 
-.menu{text-align: right;}
-.menu li {
+.nav-wrapper {display: flex; justify-content: space-between;}
+.legal ul, .social ul{padding: 0;}
+.legal li, .social li {
   display: inline;
-  padding-left: .75em;
+  padding: 0;
 }
+.legal li{padding-left: 12px;}
+.social li{padding-right: 12px;}
 
 th, td {
   padding: 0 18px;
@@ -32,8 +35,6 @@ th, td {
   float: right;
   color: grey;
 }
-
-footer{margin-top: 5em;}
 
 @media (prefers-color-scheme: dark) {
   :root {
