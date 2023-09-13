@@ -1,24 +1,19 @@
 +++
 draft = true
+#aliases = ['']
 
 title = '{{ replace .Name "-" " " | title }}'
-description = ''
+subtitle = ''
+# tl;dr
 summary = ''
 
-tags = []
-categories = []
-series = []
+# SEO ~150 chars max
+description = ''
+# SEO keywords
 keywords = []
 
+date = {{ .Date }}
 publishDate = {{ .Date }}
-#lastmod = {{ .Date }} # should be based on git commit and then format it in HTML with functions
 
-#
-# Custom Params
-#
-
-#subtitle = ''
-includeToc = true
-#hiddenFromHomePage = false
-#hiddenFromSearch = false
+includeToc = false
 +++
