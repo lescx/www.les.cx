@@ -2,7 +2,7 @@
 draft = false
 aliases = ['vorbereitungskurs-mathe-online-aussagenlogik']
 
-title = 'Vorbereitung Mathe Aussagenlogik (Online)'
+title = 'Vorbereitung Mathe Aussagenlogik'
 subtitle = ''
 topic = 'Aussagenlogik'
 description = ''

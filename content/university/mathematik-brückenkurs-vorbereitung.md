@@ -1,7 +1,7 @@
 +++
 draft = false
-title = 'Mathematik Brückenkurs Notizen Orga'
-description = 'Hier stehen organisatorische Notizen über den Brückenkurs Mathematik vom 21.09.2023 bis 29.09.2023.'
+title = 'Brückenkurs Orga'
+description = 'Organisatorische Notizen über den Brückenkurs Mathematik vom 21.09.2023 bis 29.09.2023.'
 summary = ''
 
 semesters = 1

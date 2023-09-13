@@ -13,8 +13,9 @@
         {{ range .Pages }}
           <li>
             <article class="post">
-              <a href="{{ .Permalink }}">{{ .Title }}</a>
-              <time class="postdate" datetime="{{ .PublishDate.Format "2006-02-01" }}">{{ .PublishDate.Format "2006-02-01" }}</time>
+              <a href="{{ .Permalink }}">{{ .Title }}
+              <time class="postdate" datetime="{{ .PublishDate.Format "2006-01-02" }}">{{ .PublishDate.Format "2006-01-02" }}</time>
+              </a>
             </article>
           </li>
         {{ end }}

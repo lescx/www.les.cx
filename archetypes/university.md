@@ -2,7 +2,7 @@
 draft = true
 aliases = ['']
 
-
+# Not a generic name like "Vorlesung 2023-09-10" but a descriptive title!
 title = '{{ replace .Name "-" " " | title }}'
 subtitle = ''
 # SEO ~150 chars max
@@ -10,7 +10,7 @@ description = ''
 
 topic = ''
 
-# eq tl;dr
+# tl;dr
 summary = ''
 
 semesters = 1

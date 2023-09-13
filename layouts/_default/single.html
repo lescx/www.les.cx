@@ -12,8 +12,10 @@
       {{- end }}
     </hgroup>
     {{ if .Params.includeToc }}
+      <section id="toc-wrapper">
       <h2>Table of Contents</h2>
       {{ .TableOfContents }}
+      </section>
       <hr>
     {{ end }}
     <!-- TODO: wrap .Content in a tag -->

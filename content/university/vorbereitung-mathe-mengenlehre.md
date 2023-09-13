@@ -2,7 +2,7 @@
 draft = false
 aliases = ['']
 
-title = 'Vorbereitung Mathe Mengenlehre (Online)'
+title = 'Vorbereitung Mathe Mengenlehre'
 subtitle = ''
 topic = 'Mengenlehre'
 description = ''
@@ -48,7 +48,7 @@ $$
 M = \set{x|P(x)}
 $$
 
-- **Sprechweise:** $M$ ist die Menge aller $x$, für die die Aussage $P(x)$ wahr ist.*
+- **Sprechweise:** *$M$ ist die Menge aller $x$, für die die Aussage $P(x)$ wahr ist.*
 
 **Beispiel**
 
