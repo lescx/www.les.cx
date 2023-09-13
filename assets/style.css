@@ -15,23 +15,15 @@ body {
   background-color: var(--bg-color);
 }
 
-a{color: var(--fg-color);}
-a:visited{color: var(--fg-color);}
+a,a:visited{color: var(--fg-color);}
 a:hover{color: var(--accent-blue);}
-h2,h3{margin-top: 2em;font-size: 1.25em;}
-ul{list-style: none;padding-left: 0;}
-ul ul {padding-left: 32px;}
 
 th, td {
   padding: 0 18px;
   border-bottom: 1px solid var(--fg-color);
 }
 
-.postdate{
-  float: right;
-  color: grey;
-}
-
+.postdate{float: right;color: grey;}
 .legal li{display: inline; padding-left: 12px; float: right;}
 
 @media (prefers-color-scheme: dark) {

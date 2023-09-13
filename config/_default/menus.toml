@@ -12,10 +12,14 @@
   weight = 30
 
 [[legal]]
+  name = 'contact'
+  url = '/contact'
+  weight = 5
+[[legal]]
   name = 'copyright'
   url = '/copyright'
-  weight = 10
+  weight = 20
 [[legal]]
   name = 'privacy policy'
   url = '/privacy-policy'
-  weight = 20
+  weight = 10
