@@ -16,6 +16,7 @@ body {
 }
 
 a{color: var(--fg-color);}
+a:visited{color: var(--fg-color);}
 a:hover{color: var(--accent-blue);}
 h2,h3{margin-top: 2em;font-size: 1.25em;}
 ul{list-style: none;padding-left: 0;}
