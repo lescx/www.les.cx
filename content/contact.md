@@ -33,8 +33,9 @@ The following emails end up in spam:
 
 - HTML-formatted emails (use plaintext)
 - Generic signatures such as 'Sent from my iPhone'
-- Specific keywords such as "Bitcoin", "NFT" or "AI"
+- Buzzword keyword filtering such as "Bitcoin", "NFT" or "AI"
 - More than one "!"/"?" in succession.
+- Email provider: Yahoo, web.de, GMX
 
 ### Brain-filter
 
