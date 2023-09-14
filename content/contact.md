@@ -21,7 +21,7 @@ includeToc = false
 
 ## Netiquette
 
-- I won't reply if you don't encrypt your message using PGP. Make sure I can find your public key and can verify your fingerprint.
+- I won't reply if you don't encrypt your email using PGP. Make sure I can find your public key and can verify your fingerprint.
 - I use two strict email filter: one on software level, one on brain level. The second one also applies to Matrix.
 
 ### Software Filter
