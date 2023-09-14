@@ -32,7 +32,7 @@ The following emails end up in spam:
 - Generic signatures such as 'Sent from my iPhone'
 - Buzzword keyword filtering such as "Bitcoin", "NFT" or "AI"
 - More than one "!"/"?" in succession.
-- The following email provider: yahoo.com, web.de, gmx.de
+- The following ~email~ spam provider: yahoo.com, web.de, gmx.de, freenet.de, aol.com, mail.ru, yandex.ru
 
 ### Brain Filter
 
