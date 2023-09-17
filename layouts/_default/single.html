@@ -1,9 +1,9 @@
 {{ define "main" }}
 <hgroup>
   <h1>{{ .Title }}</h1>
-  {{ if .Params.subtitle }}
+  {{ if .Params.subtitle -}}
     <p id="subtitle"><i>{{ .Params.subtitle }}</i></p>
-  {{ end }}
+  {{- end }}
 </hgroup>
 {{ if .Params.includeToc }}
 <section id="toc-wrapper">

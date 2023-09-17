@@ -1,12 +1,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta content="https://www.les.cx" property=og:url>
-  <meta content="{{ .Site.Title }}" property=og:site_name>
-  <meta content="{{ .Description }}" name=description>
-  <meta content="{{ .Description }}" property=og:description>
+  <meta content="{{ .Site.Title }}" property="og:site_name">
+  <meta content="{{ .Description }}" name="description" property="og:description">
   <meta name="keywords" content="{{ with .Params.keywords }}{{ delimit . ", "}}{{ end }}" />
-  <meta content=website property=og:type>
+  <meta content="website" property="og:type">
   {{ $css := resources.Get "style.css" | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" type="text/css" href="{{ $css.Permalink }}" integrity="{{ $css.Data.Integrity }}">
   <title>{{ block "title" . }}{{- partial "title.html" . -}}{{ end }}</title>

@@ -1,11 +1,10 @@
 <footer>
   <hr>
-    <nav class="legal">
-      <ul>
-        {{- range site.Menus.legal -}}
-        <li><a href="{{ .URL }}">{{- .Name -}}</a></li>
-        {{- end -}}
-      </ul>
-    </nav>
-  </div>
+  <nav class="legal">
+    <ul>
+      {{- range site.Menus.legal -}}
+      <li><a href="{{ .URL }}">{{- .Name -}}</a></li>
+      {{- end -}}
+    </ul>
+  </nav>
 </footer>

@@ -5,7 +5,7 @@ draft = true
 title = 'A Summary of App Repositories for GrapheneOS'
 subtitle = "Don't bully the app store with 12 apps! :("
 # tl;dr
-tldr = "If you use the sandboxed Google Play Services, the Google Play Store is currently the most trustworthy source to download apps from. Don't use the Aurora Store. Also, use Obtainium from GitHub to download your FOSS apps. Keep an eye on Accrescent."
+tldr = "If you use the sandboxed Google Play Services, the Google Play Store is currently the most trustworthy source to download apps from. Don't use the Aurora Store. There is no need to use F-Droid anymore. Also, use Obtainium from GitHub to download your FOSS apps. Keep an eye on Accrescent. You don't need to stuff from the official App websites."
 
 # SEO ~150 chars max
 description = 'A comparison and recommendation about different kind of sources to retrieve apps from for GrapheneOS.'
@@ -18,9 +18,9 @@ publishDate = 2023-09-17T18:13:10+02:00
 includeToc = true
 +++
 
-Da häufig die Diskussion auftritt, worüber man Apps beziehen sollte über GrapheneOS, hier ein kurzes "How to" und "Why to" über die Thematik *App-Repos*.
+Da in den GrapheneOS Matrix-räumen täglich die Frage aufkommt, worüber denn App x (nicht [X](https://play.google.com/store/apps/details?id=com.twitter.android)) bezogen werden soll, hier ein kurzes "How to" und "Why to" über die Wahl von App repositories.
 
-Dieser Guide ziehlt auf die *sicherste* Methodik ab. Sicher heißt vertrauenswürdiges beziehen der quelloffenen App mit einer möglichst geringen Chance, dass die App manipuliert auf meinem Gerät landet.
+Dieser Guide zielt auf die *sicherste* Methodik ab. Sicher heißt vertrauenswürdiges beziehen der quelloffenen App mit einer möglichst geringen Chance, dass die App manipuliert auf meinem Gerät landet.
 Nette Nebeneffekte, die mit in die Auswahl einkalkuliert werden sollten:
 
 - best practices
@@ -30,7 +30,9 @@ Nette Nebeneffekte, die mit in die Auswahl einkalkuliert werden sollten:
 Worauf dieser Artikel nur wenig Augenmerk drauf legt ist auf die Gefahr, dass 
 
 
-## [Accrescent](https://accrescent.app/)
+## Accrescent
+
+[Accrescent](https://accrescent.app/)
 
 Was wir wollen: Entwickler signieren ihre Anwendung. Accrescent signiert nicht, aber lässt nicht installieren, wenn signatur nicht passt.
 Hoffnung für die Zukunft.
@@ -89,9 +91,6 @@ Vorteil:
 >
 > When an app is submitted the first time, our issuebot scans the apk and reports permissions, trackers and non-free libs. We also check the apk with VirusTotals. Then we test it on a device to ensure it works well and there is no suspectious network connections. Our reviewers publishes thoes review in the comments of the MR. We don’t check it again for app updates. The fdroidserver scanner scan the repo for non-free libs only.
 > Source https://forum.f-droid.org/t/is-it-as-safe-as-it-is-from-fdroid-official-repo/15956/12
-
-Here are a few problems with F-Droid:
-QUELLEN FÜR ALLES ANGEBEN!!!
 
 - Outdated APK Client mit geringer minimum sdk
 - Obsolete installation method HEIßt???
