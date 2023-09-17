@@ -28,7 +28,7 @@ th, td {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-color: #1e1e1e;
+    --bg-color: #0d0d0d;
     --fg-color: #F5F6F4;
   }
 }

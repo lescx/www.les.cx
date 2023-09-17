@@ -27,10 +27,6 @@ title = 'Luca Etienne Schulz'
   [security.exec]
     allow = ['^go$']
 
-[taxonomies]
-  module = 'modules'
-  semester = 'semesters'
-
 [outputs]
   home = 'HTML'
   taxonomy = ['html']

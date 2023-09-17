@@ -1,18 +1,27 @@
 {{ define "main" }}
-<article id="post">
-  <hgroup>
-    <h1>{{ .Title }}</h1>
-    <p>{{ .Summary }}<p>
-  </hgroup>
-  {{ .Content }}
-  <ul>
-    {{- range .Pages }}
-    <article>
-      <li>
-        <a href="{{ .Permalink }}">{{ .Date.Format "2006-01-02" }} : {{ .Title }}</a>
-      </li>
-    </article>
-    {{- end }}
-  </ul>
-</article>
+  <article>
+    <hgroup>
+      <h1>{{ .Title }}</h1>
+      {{/* .Summary */}}
+    </hgroup>
+    {{ .Content }}
+    {{ range .Pages.GroupByParam "modules" }}
+    <section class="module">
+      <h2>{{ .Key }}</h2>
+      <nav>
+        <ul>
+        {{ range .Pages }}
+          <li>
+            <article class="post">
+              <a href="{{ .Permalink }}">{{ .Title }}
+              <time class="postdate" datetime="{{ .PublishDate.Format "2006-01-02" }}">{{ .PublishDate.Format "2006-01-02" }}</time>
+              </a>
+            </article>
+          </li>
+        {{ end }}
+        </ul>
+      </nav>
+    </section>
+    {{ end }}
+  </article>
 {{ end }}

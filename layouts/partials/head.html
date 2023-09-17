@@ -6,7 +6,6 @@
   <meta content="{{ .Description }}" name=description>
   <meta content="{{ .Description }}" property=og:description>
   <meta content=website property=og:type>
-  <link href="https://www.les.cx" rel=canonical>
   {{ $css := resources.Get "style.css" | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" type="text/css" href="{{ $css.Permalink }}" integrity="{{ $css.Data.Integrity }}">
   <title>{{ block "title" . }}{{- partial "title.html" . -}}{{ end }}</title>
