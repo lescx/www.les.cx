@@ -1,16 +1,24 @@
 {{ define "main" }}
-  <article id="post">
-    <hgroup>
-      <h1>{{ .Title }}</h1>
-    </hgroup>
-    {{ if .Params.includeToc }}
-      <section id="toc-wrapper">
-      <h2>Table of Contents</h2>
-      {{ .TableOfContents }}
-      </section>
-      <hr>
-    {{ end }}
-    <!-- TODO: wrap .Content in a tag -->
-    {{ .Content }}
-  </article>
+<hgroup>
+  <h1>{{ .Title }}</h1>
+  {{ if .Params.subtitle }}
+    <p id="subtitle"><i>{{ .Params.subtitle }}</i></p>
+  {{ end }}
+</hgroup>
+{{ if .Params.includeToc }}
+<section id="toc-wrapper">
+  <h2>Table of Contents</h2>
+  {{ .TableOfContents }}
+</section>
+<hr>
+{{ end }}
+{{ with .Params.tldr }}
+<article id="tldr">
+  <h2>tl;dr</h2>
+  {{ . }}
+</article>
+{{ end }}
+<article>
+  {{ .Content }}
+</article>
 {{ end }}

@@ -5,6 +5,7 @@
   <meta content="{{ .Site.Title }}" property=og:site_name>
   <meta content="{{ .Description }}" name=description>
   <meta content="{{ .Description }}" property=og:description>
+  <meta name="keywords" content="{{ with .Params.keywords }}{{ delimit . ", "}}{{ end }}" />
   <meta content=website property=og:type>
   {{ $css := resources.Get "style.css" | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" type="text/css" href="{{ $css.Permalink }}" integrity="{{ $css.Data.Integrity }}">

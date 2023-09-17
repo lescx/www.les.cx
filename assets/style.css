@@ -23,6 +23,7 @@ th, td {
   border-bottom: 1px solid var(--fg-color);
 }
 
+#subtitle{text-align: center;}
 .postdate{float: right;color: grey;}
 .legal li{display: inline; padding-left: 12px; float: right;}
 
