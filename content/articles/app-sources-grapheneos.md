@@ -1,6 +1,6 @@
 +++
 draft = true
-#aliases = ['']
+aliases = ['/article/app-sources-grapheneos']
 
 title = 'A Summary of App Repositories for GrapheneOS'
 subtitle = "Don't bully the app store with only 12 apps… :("
