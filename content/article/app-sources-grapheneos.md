@@ -3,9 +3,9 @@ draft = true
 #aliases = ['']
 
 title = 'A Summary of App Repositories for GrapheneOS'
-subtitle = "Don't bully the app store with 12 apps! :("
+subtitle = "Don't bully the app store with only 12 apps… :("
 # tl;dr
-tldr = "If you use the sandboxed Google Play Services, the Google Play Store is currently the most trustworthy source to download apps from. Don't use the Aurora Store. There is no need to use F-Droid anymore. Also, use Obtainium from GitHub to download your FOSS apps. Keep an eye on Accrescent. You don't need to stuff from the official App websites."
+tldr = 'Ideally, only use the GrapheneOS "Apps" app and Accrescent - maybe that is a possibility in the future. If you use the sandboxed Google Play Services, download your apps from the Google Play Store. Download Obtainium from GitHub for apps not found in the Google Play Store. Do not use Aurora Store or F-Droid anymore. Do not download non-app stores from websites.'
 
 # SEO ~150 chars max
 description = 'A comparison and recommendation about different kind of sources to retrieve apps from for GrapheneOS.'
@@ -18,17 +18,20 @@ publishDate = 2023-09-17T18:13:10+02:00
 includeToc = true
 +++
 
-Da in den GrapheneOS Matrix-räumen täglich die Frage aufkommt, worüber denn App x (nicht [X](https://play.google.com/store/apps/details?id=com.twitter.android)) bezogen werden soll, hier ein kurzes "How to" und "Why to" über die Wahl von App repositories.
+Da in den GrapheneOS Matrix-räumen täglich die Frage aufkommt, worüber denn Apps bezogen werden sollen, hier ein kurzes "How to" und "Why to" über die Wahl von App repositories.
 
-Dieser Guide zielt auf die *sicherste* Methodik ab. Sicher heißt vertrauenswürdiges beziehen der quelloffenen App mit einer möglichst geringen Chance, dass die App manipuliert auf meinem Gerät landet.
-Nette Nebeneffekte, die mit in die Auswahl einkalkuliert werden sollten:
+Dieser Guide zielt auf die *sicherste* Methodik ab. Sicher heißt vertrauenswürdiges beziehen der App mit einer möglichst geringen Chance, dass die App manipuliert auf meinem Gerät landet.
+
+Worauf dieser Guide keinen Augenmerk legt, 
+Ob die App selbst vertrauenswürdig ist und mit einem ausreichendem Eigenmerk auf best practices legt, muss jeder selbst überprüfen. 
+
+Nebeneffekte, die mit in die Auswahl einkalkuliert werden sollten:
 
 - best practices
 - moderne Codebase
 - schnelle Updates im Store
 
-Worauf dieser Artikel nur wenig Augenmerk drauf legt ist auf die Gefahr, dass 
-
+Ganz kurzer disclaimer: es macht keinen Unterschied, ob eine App auf GitHub, F-Droid oder im Google Play Store seit zwei Jahren nicht mehr geupdated wurde. In dem Fall heißt die Antwort auf die Ausgangsfrage: installiere die App gar nicht!
 
 ## Accrescent
 
@@ -76,6 +79,8 @@ Vorteil:
 
 ## F-Droid (and derivates)
 
+* GrapheneOS on Google Play Store and F-Droid https://nitter.net/GrapheneOS/status/1497273173364166662#m
+
 > linsui
 > F-Droid Contributor
 > Dec '21
@@ -83,7 +88,7 @@ Vorteil:
 > F-Droid can’t ensure the apps are safe. You still need to trust the upstream developers. We only do some basic check. \[…]
 > Source: https://forum.f-droid.org/t/is-it-as-safe-as-it-is-from-fdroid-official-repo/15956/2
 
-*What are basic checks, you may ask?*
+*What are basic checks?*
 
 > linsui
 > F-Droid Contributor
@@ -92,32 +97,35 @@ Vorteil:
 > When an app is submitted the first time, our issuebot scans the apk and reports permissions, trackers and non-free libs. We also check the apk with VirusTotals. Then we test it on a device to ensure it works well and there is no suspectious network connections. Our reviewers publishes thoes review in the comments of the MR. We don’t check it again for app updates. The fdroidserver scanner scan the repo for non-free libs only.
 > Source https://forum.f-droid.org/t/is-it-as-safe-as-it-is-from-fdroid-official-repo/15956/12
 
-- Outdated APK Client mit geringer minimum sdk
-- Obsolete installation method HEIßt???
- - arbeiten aber an unattended updates
-- Does not take advantage of modern appstore features??? Heißt
- - arbeiten aber an unattended updates
-- moderation?
-- No old app deletion --> SDK minimum like Google Play Store?
-- FOSS Rules?
-- Building and signing infrastructure, aber wird dran gearbeitet
-- Update Approval times
+* Outdated APK Client?
+* Does not take advantage of modern appstore features?
+    * Currently working on unattended updates
+* moderation of apps?
+* No old app deletion --> What is the SDK minimum - the Google Play Store does have a strict minimum?
+* FOSS Rules?
+* Building and signing infrastructure?
+* Update Approval times?
+* supports reproducible builds
+    * around 200 Apps currently https://gitlab.com/obfusk/fdroid-misc-scripts/-/blob/master/reproducible/overview.md
+    * who checks that before using it?
 
-Aber: https://f-droid.org/en/2023/09/03/reproducible-builds-signing-keys-and-binary-repos.html
-
-https://privsec.dev/posts/android/f-droid-security-issues
-https://twitter.com/GrapheneOS/status/1497272529223917575
-
-Vorteile
-
-F-Droid besitzt die Möglichkeit für reproducible builds. Aber fast keine App implementiert das :-)
-Und das tatsächliche bauen ist zu kompliziert. Natürlich kein Problem von F-Droid, aber wie oft habt ihr eure Anwendungen, die ihr von F-Droid heruntergeladen habt, danach selbst gebaut?
-
+* [2023-09-03 Reproducible builds, signing keys, and binary repos](https://f-droid.org/en/2023/09/03/reproducible-builds-signing-keys-and-binary-repos.html)
+* [2023-09-06 F-Droid Security Issues](https://privsec.dev/posts/android/f-droid-security-issues)
 
 ## Aurora Store
 
+**Disclaimer:** Ich sollte an dieser Stelle noch einmal darauf aufmerksam machen, dass dieser Guide *nicht* die datensparsamste Methode sucht, seine Apps zu beziehen, sondern die sicherste, wie oben definiert.
+
+Reasons, why you might want to use Aurora Store in the past:
+
+* Man möchte "anonym" seine Apps wie WhatsApp und Netflix vom Google Play Store verwenden, ohne sich mit einem Google Konto anzumelden.
+* Man möchte oder kann keinen Google Play Store nutzen
+* der Google Play Store hat Sonderrechte auf dem eigenen Gerät und unterliegt nicht der App Sandbox von Android.
 
 ## Sandboxed Google Play Store
 
+My disclaimer on [Aurora Store](#aurora-store) does apply as well.
+
+* https://nitter.net/GrapheneOS/status/1497272529223917575
 
 ## Obtainium

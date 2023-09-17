@@ -24,6 +24,7 @@ th, td {
 }
 
 #subtitle{text-align: center;}
+#tldr{margin-left:2em;}
 .postdate{float: right;color: grey;}
 .legal li{display: inline; padding-left: 12px; float: right;}
 
