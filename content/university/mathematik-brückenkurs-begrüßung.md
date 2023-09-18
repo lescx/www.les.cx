@@ -19,7 +19,7 @@ topic = ''
 moduleNumber = ''
 
 date = 2023-09-18T16:03:02+02:00
-publishDate = 2023-09-21T16:03:02+02:00
+publishDate = 2023-09-21T00:00:01+02:00
 
 includeToC = false
 includeKaTeX = false
