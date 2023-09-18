@@ -4,8 +4,7 @@ draft = true
 
 title = '{{ replace .Name "-" " " | title }}'
 subtitle = ''
-# tl;dr
-summary = ''
+tldr = ''
 
 # SEO ~150 chars max
 description = ''

@@ -2,7 +2,7 @@
 draft = true
 #aliases = ['']
 
-# Not a generic name like "Vorlesung 2023-09-10" but a descriptive title!
+# Not a generic name like "Vorlesung: 2023-09-10" but a descriptive title!
 title = '{{ replace .Name "-" " " | title }}'
 subtitle = ''
 # tl;dr
