@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 aliases = ['/article/app-sources-grapheneos']
 
 title = 'A Summary of App Repositories for GrapheneOS'
