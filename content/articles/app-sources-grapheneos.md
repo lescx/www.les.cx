@@ -5,10 +5,10 @@ aliases = ['/article/app-sources-grapheneos']
 title = 'A Summary of App Repositories for GrapheneOS'
 subtitle = "Don't bully the app store with only 12 apps… :("
 # tl;dr
-tldr = 'Ideally, only use the GrapheneOS "Apps" app and Accrescent - maybe that is a possibility in the future. If you use the sandboxed Google Play Services, download your apps from the Google Play Store. Download Obtainium from GitHub for apps not found in the Google Play Store. Do not use Aurora Store or F-Droid anymore. Do not download non-app stores from websites.'
+tldr = 'Ideally, only use the GrapheneOS "Apps" app and Accrescent - maybe that will be a possibility in the future. If you use the sandboxed Google Play Services, download your apps from the Google Play Store. Download Obtainium from GitHub for apps not found in the Google Play Store. Do not use Aurora Store or F-Droid anymore. Downloading apps from official websites should be your last resort.'
 
 # SEO ~150 chars max
-description = 'A comparison and recommendation about different kind of sources to retrieve apps from for GrapheneOS.'
+description = 'A comparison of different sources to retrieve apps from for GrapheneOS.'
 # SEO keywords
 keywords = ['GrapheneOS', 'Aurora Store', 'F-Droid', 'Accrescent', 'Obtainium']
 
@@ -18,64 +18,27 @@ publishDate = 2023-09-17T18:13:10+02:00
 includeToc = true
 +++
 
-Da in den GrapheneOS Matrix-räumen täglich die Frage aufkommt, worüber denn Apps bezogen werden sollen, hier ein kurzes "How to" und "Why to" über die Wahl von App repositories.
-
-Dieser Guide zielt auf die *sicherste* Methodik ab. Sicher heißt vertrauenswürdiges beziehen der App mit einer möglichst geringen Chance, dass die App manipuliert auf meinem Gerät landet.
-
-Worauf dieser Guide keinen Augenmerk legt, 
-Ob die App selbst vertrauenswürdig ist und mit einem ausreichendem Eigenmerk auf best practices legt, muss jeder selbst überprüfen. 
-
-Nebeneffekte, die mit in die Auswahl einkalkuliert werden sollten:
-
-- best practices
-- moderne Codebase
-- schnelle Updates im Store
-
-Ganz kurzer disclaimer: es macht keinen Unterschied, ob eine App auf GitHub, F-Droid oder im Google Play Store seit zwei Jahren nicht mehr geupdated wurde. In dem Fall heißt die Antwort auf die Ausgangsfrage: installiere die App gar nicht!
-
-## Accrescent
-
-[Accrescent](https://accrescent.app/)
-
-Was wir wollen: Entwickler signieren ihre Anwendung. Accrescent signiert nicht, aber lässt nicht installieren, wenn signatur nicht passt.
-Hoffnung für die Zukunft.
+Since in the GrapheneOS matrix rooms the question arises almost daily about the best way to obtain apps, this is a short "how to" and "why to" for GrapheneOS users. The aim is to obtain apps from a source that is as trustworthy and secure as possible.
 
 ## APKs from Official Websites
 
-Ich glaube, das machen vor allem Windows-Nutzer gerne, da es auf der Plattform lange Zeit selbstverständlich war, auf die offizielle Website eines Programms zu gehen und die .exe oder .msi Datei herunterzuladen. Das sollte man weder auf Windows tun, noch auf anderen Plattformen. Es soll mir aber nicht um Windows gehen - das würde ein eigener Beitrag werden.
+I guess Windows users in particular like to do this because for a long time it was a matter of course on the platform to go to the official website (or not) of a specific program and download the .exe or .msi file. For the most part, you shouldn't do that on Windows, nor on other platforms.
 
-Wenn es die offizielle Seite eines Programms ist, dann ist das herunterladen einer App über die Website genauso gefährlich oder ungefährlich wie über Repositories wie GitHub - je nachdem, wie die Website konfiguriert ist, würde ich vermutlich eher über GitHub herunterladen.
-Ebenso: man sollte den Hash + PGP signatur überprüfen. All das kommt auf einer Website (und GitHub) i.d.R. nicht vor (aber geht via OpenKeyChain!).
+There is no signature check happening if the APK is *actually* coming from the developer(s).
+Also: Do you check the APK hash and PGP signature on android? Probably not.
 
-Ablauf, bis die Datei auf der Website landet:
+Not a particularly confidence-inspiring way to obtain an app.
+And not a user-friendly one. How often have you checked the PGP signature on your phone for a programme?
 
-Der Prozess, bis das Programm letztlich auf der Website landet, ist leider sehr undurchdringlich. Jedes Projekt (jeder Entwickler) wird das anders händeln. Letztlich wird es aber ungefähr so aussehen:
-
-1. Bauen der Anwendung (oder *der Anwendungen* bei mehreren Plattformen)
-2. (Optional) Hash generieren, Anwendung mit externer Signatur signieren, Hash signieren --> das ganze setzt i.d.R. einen ordentlich geschützten [PGP]-Schlüssel vorraus. Leider wissen die wenigsten Entwickler, wie man PGP "richtig nutzt". QubesOS macht es richtig. Nutzerfreundlich und "einfach" für Normalos ist der Weg aber nicht.
-3. Alle Dateien auf einen Webserver hochladen und damit anderen bereitstellen
-4. Profit?
-
-Grundsätzlich ist an dem Prozess nichts verkehrt - ein Programm bauen auf dem Entwicklerrechner und hochladen. Code updaten, neu bauen, neu hochladen.
-
-Das Problem liegt darin, dass man wenig einsicht darüber hat, was auf dem Weg seit oder während dem kompilieren des Programmes alles passiert ist. Es ist kein besonders vertrauenserweckender Weg, ein Programm zu beziehen.
-Und kein nutzerfreundlicher. Wie oft habt ihr die PGP-Signatur auf eurem Gerät für ein Programm überprüft? Am Computer mache ich das wenn nötig. Am Handy? Nope.
-
-- Der Entwickler baut das Programm irgendwie, irgendwo und stellt eine APK-Datei auf einer Seite bereit. Das heißt aber nicht, dass der Nutzer diese auch zu Gesicht bekommt.
-- Keine Security-scans möglich
-- Kein Erzwingen von bestimmten features möglich
-
-Vorteil:
-- Wenn manipuliert, dann nur diese App und nicht automatisch alle Apps
 
 ## APK von GitHub Releases
 
-- GitHub Releases sind nicht gleich GitHub releases. Letztlich sind GitHub releases nur git tags und nichts hält einen Entwickler (und oder bösartige Akteure) manipulierte APKs einzuschleußen.
+* GitHub releases are not all the same. Ultimately, GitHub releases are just git tags and nothing stops a developer (and or malicious actors) from injecting manipulated APKs. 
+* Uniform and simpler infrastructure for the developer and user in comparison to websites.
+* Signatures can be verified but UI doesn't tell at all if signing key has changed.
+    * Means, similar process to GPG via website
+* CI/CD possible to build APKs using GitHub Pipeline.
 
- Vorteile:
-
-- CI/CD möglich zum bauen von Quelle
-- Wenn manipuliert, dann nur diese App und nicht automatisch alle Apps
 
 ## F-Droid (and derivates)
 
@@ -86,20 +49,37 @@ See also…
 * [2023-09-03 F-Droid: Reproducible builds, signing keys, and binary repos](https://f-droid.org/en/2023/09/03/reproducible-builds-signing-keys-and-binary-repos.html)
 * [2022-02-25 GrapheneOS: On Google Play Store and F-Droid](https://nitter.net/GrapheneOS/status/1497273173364166662)
 
+
 ## Aurora Store
 
-**Disclaimer:** Ich sollte an dieser Stelle noch einmal darauf aufmerksam machen, dass dieser Guide *nicht* die datensparsamste Methode sucht, seine Apps zu beziehen, sondern die sicherste, wie oben definiert.
+**Disclaimer:** I should point out again at this point that this guide is *not* looking for the most private way to obtain its apps, but the most secure, as defined above.
 
 Reasons, why you might want to use Aurora Store in the past:
 
-* Man möchte "anonym" seine Apps wie WhatsApp und Netflix vom Google Play Store verwenden, ohne sich mit einem Google Konto anzumelden.
-* Man möchte oder kann keinen Google Play Store nutzen
-* der Google Play Store hat Sonderrechte auf dem eigenen Gerät und unterliegt nicht der App Sandbox von Android.
+* One would like to use "anonymously" one's apps such as WhatsApp and Netflix from the Google Play Store without logging in with a Google account.
+* One does not want to or cannot use a Google Play Store.
+* Security issue: The Google Play Store has special rights on one's own device and is not subject to the same App Sandbox as other apps are.
+
 
 ## Sandboxed Google Play Store
 
 My disclaimer on [Aurora Store](#aurora-store) does apply as well.
 
 * https://nitter.net/GrapheneOS/status/1497272529223917575
+* proper building and signing
+* Developer and Google sign the app.
+
 
 ## Obtainium
+
+* See GitHub releases + nice, modern UI and codebase
+* Fast(!) updates
+
+
+## Accrescent
+
+[Accrescent](https://accrescent.app/)
+
+* Modern codebase with focus on privacy and security!
+* Accrescent does not sign but developer
+    * They actually care if the signature changes!!! (Looking at you, F-Droid!)
