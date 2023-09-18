@@ -1,6 +1,6 @@
 +++
 draft = true
-title = 'Vorlesung'
+title = 'Vorlesung: Reelle Zahlen, Gleichungen und Ungleichungen'
 subtitle = ''
 topic = 'Reelle Zahlen, Gleichungen und Ungleichungen'
 description = 'In der 2. Vorlesung beschäftigen wir uns mit der Zahlenmenge der reellen Zahlen und wichtigen Eigenschaften dieser sowie mit elementaren Rechenoperationen und -regeln, die immer mal wieder benötigt werden. Zu letzteren zählen beispielsweise Potenzgesetze und der Umgang mit dem Betrag. Darüber hinaus geht es um das Lösen von ausgewählten Typen von Gleichungen und Ungleichungen.'

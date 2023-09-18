@@ -1,6 +1,6 @@
 +++
 draft = true
-title = 'Vorlesung'
+title = 'Vorlesung: Logik, Mengen und Funktionen'
 subtitle = ''
 topic = 'Logik, Mengen und Funktionen'
 description = 'Nach einer Begrüßung zum diesjährigen Brückenkurs werden in der 1. Vorlesung ein paar grundlegende Begriffe und Bezeichnungen eingeführt, die in der Mathematik immer mal wieder auftauchen. Das betrifft vor allem Grundlagen aus der Aussagenlogik und der Mengenlehre. Zudem wird der Begriff der Funktion als eindeutige Zuordnung eingeführt. In späteren Vorlesungen des Brückenkurses wird es dann noch genauer konkret um reelle Funktionen gehen, also Funktionen, bei denen sowohl die Ausgangsgrößen als auch die zugeordneten Größen reelle Zahlen sind.'
