@@ -79,38 +79,12 @@ Vorteil:
 
 ## F-Droid (and derivates)
 
-* GrapheneOS on Google Play Store and F-Droid https://nitter.net/GrapheneOS/status/1497273173364166662#m
+I recommend this article on [F-Droid Security Issues](https://privsec.dev/posts/android/f-droid-security-issues) which goes into great detail. ([Wayback Machine](http://web.archive.org/web/20230000000000*/https://privsec.dev/posts/android/f-droid-security-issues))
 
-> linsui
-> F-Droid Contributor
-> Dec '21
->
-> F-Droid can’t ensure the apps are safe. You still need to trust the upstream developers. We only do some basic check. \[…]
-> Source: https://forum.f-droid.org/t/is-it-as-safe-as-it-is-from-fdroid-official-repo/15956/2
+See also…
 
-*What are basic checks?*
-
-> linsui
-> F-Droid Contributor
-> Jan '22
->
-> When an app is submitted the first time, our issuebot scans the apk and reports permissions, trackers and non-free libs. We also check the apk with VirusTotals. Then we test it on a device to ensure it works well and there is no suspectious network connections. Our reviewers publishes thoes review in the comments of the MR. We don’t check it again for app updates. The fdroidserver scanner scan the repo for non-free libs only.
-> Source https://forum.f-droid.org/t/is-it-as-safe-as-it-is-from-fdroid-official-repo/15956/12
-
-* Outdated APK Client?
-* Does not take advantage of modern appstore features?
-    * Currently working on unattended updates
-* moderation of apps?
-* No old app deletion --> What is the SDK minimum - the Google Play Store does have a strict minimum?
-* FOSS Rules?
-* Building and signing infrastructure?
-* Update Approval times?
-* supports reproducible builds
-    * around 200 Apps currently https://gitlab.com/obfusk/fdroid-misc-scripts/-/blob/master/reproducible/overview.md
-    * who checks that before using it?
-
-* [2023-09-03 Reproducible builds, signing keys, and binary repos](https://f-droid.org/en/2023/09/03/reproducible-builds-signing-keys-and-binary-repos.html)
-* [2023-09-06 F-Droid Security Issues](https://privsec.dev/posts/android/f-droid-security-issues)
+* [2023-09-03 F-Droid: Reproducible builds, signing keys, and binary repos](https://f-droid.org/en/2023/09/03/reproducible-builds-signing-keys-and-binary-repos.html)
+* [2022-02-25 GrapheneOS: On Google Play Store and F-Droid](https://nitter.net/GrapheneOS/status/1497273173364166662)
 
 ## Aurora Store
 
