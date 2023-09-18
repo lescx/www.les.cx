@@ -1,0 +1,5 @@
+<ul>
+{{ range readDir "static/university" }}
+  <li><a href="Folder1/{{ .Name }}">{{ .Name }}</a></li>
+{{ end }}
+</ul>
