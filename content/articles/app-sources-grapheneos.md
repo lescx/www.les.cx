@@ -18,9 +18,11 @@ publishDate = 2023-09-17T18:13:10+02:00
 includeToc = true
 +++
 
-DISCLAIMER: This post is still in a very early WIP state! This post is public because I want to collaborate with the GrapheneOS community on it!
+**Disclaimer:** This post is still in a very early WIP state! This post is public because I want to collaborate with the GrapheneOS community on it!
 
 Since in the GrapheneOS matrix rooms the question arises almost daily about the best way to obtain apps, this is a short "how to" and "why to" for GrapheneOS users. The aim is to obtain apps from a source that is as trustworthy and secure as possible.
+
+I try to keep the explanation for each section as short as possible.
 
 ## APKs from Official Websites
 
@@ -51,19 +53,12 @@ See also…
 * [2023-09-03 F-Droid: Reproducible builds, signing keys, and binary repos](https://f-droid.org/en/2023/09/03/reproducible-builds-signing-keys-and-binary-repos.html)
 * [2022-02-25 GrapheneOS: On Google Play Store and F-Droid](https://nitter.net/GrapheneOS/status/1497273173364166662)
 
-
-## Aurora Store
-
-**Disclaimer:** I should point out again at this point that this guide is *not* looking for the most private way to obtain its apps, but the most secure, as defined above.
-
-Reasons, why you might want to use Aurora Store in the past:
-
-* One would like to use "anonymously" one's apps such as WhatsApp and Netflix from the Google Play Store without logging in with a Google account.
-* One does not want to or cannot use a Google Play Store.
-* Security issue: The Google Play Store has special rights on one's own device and is not subject to the same App Sandbox as other apps are.
+tl;dr: Luckily, there is no need to install apps from F-Droid anymore.
 
 
 ## Sandboxed Google Play Store
+
+**Disclaimer:** I should point out again at this point that this guide is *not* looking for the most private way to obtain its apps, but the most secure, as defined above.
 
 My disclaimer on [Aurora Store](#aurora-store) does apply as well.
 
@@ -72,15 +67,30 @@ My disclaimer on [Aurora Store](#aurora-store) does apply as well.
 * Developer and Google sign the app.
 
 
+## Aurora Store
+
+Reasons, why you might want to use Aurora Store in the past:
+
+* One would like to use "anonymously" one's apps such as WhatsApp and Netflix from the Google Play Store without logging in with a Google account.
+* One does not want to or cannot use a Google Play Store.
+* Security issue: The Google Play Store has special rights on one's own device and is not subject to the same App Sandbox as other apps are.
+
+
 ## Obtainium
 
-* See GitHub releases + nice, modern UI and codebase
-* Fast(!) updates
+Most repository hosting provider (GitHub, GitLab, Codeberg,…) allow subscribing to a project via RSS feeds. Many even support multiple RSS feeds on a per commit or per release basis.
+
+[Obtainium](https://github.com/ImranR98/Obtainium) builds on top of this concept and allows a direct download of apps straight from the source.
+Obtainium also scrapes from some website app sources like MullvadVPN, Signal. See the documentation for a long list of supported sources.
+
+The UI and codebase is modern, written in Dart. Updates can be rolled out fast by design. The project is pretty new so not everything works perfectly (e.g. GitLab requires an API key to download apps) - but it works as a daily driver!
+
+Still, the core problem remains: (GitHub) releases aren't a perfect solution. But it is currently the best solution for FOSS apps out there.
 
 
 ## Accrescent
 
-[Accrescent](https://accrescent.app/)
+And here we are… The app source with 12 apps. [Accrescent](https://accrescent.app/).
 
 * Modern codebase with focus on privacy and security!
 * Accrescent does not sign but developer
