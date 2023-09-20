@@ -26,7 +26,7 @@ th, td {
 #subtitle{text-align: center;}
 #tldr{margin-left:2em;}
 .postdate{font-size:0.8em;color: grey;}
-.legal li{display: inline; padding-left: 12px; float: right;margin-bottom:1em;}
+.legal li, .social li{display: inline; padding-left: 12px; float: right;margin-bottom:1em;}
 
 @media (prefers-color-scheme: dark) {
   :root {
