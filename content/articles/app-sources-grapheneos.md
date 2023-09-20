@@ -18,6 +18,8 @@ publishDate = 2023-09-17T18:13:10+02:00
 includeToc = true
 +++
 
+DISCLAIMER: This post is still in a very early WIP state! This post is public because I want to collaborate with the GrapheneOS community on it!
+
 Since in the GrapheneOS matrix rooms the question arises almost daily about the best way to obtain apps, this is a short "how to" and "why to" for GrapheneOS users. The aim is to obtain apps from a source that is as trustworthy and secure as possible.
 
 ## APKs from Official Websites
