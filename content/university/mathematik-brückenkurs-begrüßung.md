@@ -5,6 +5,7 @@ draft = false
 # Not a generic name like "Vorlesung: 2023-09-10" but a descriptive title!
 title = 'Vorlesung: Mathematik Brückenkurs Begrüßung'
 subtitle = ''
+topic = ''
 # tl;dr
 summary = ''
 
@@ -14,11 +15,10 @@ description = ''
 keywords = []
 
 semesters = 1
-modules = ''
-topic = ''
+modules = 'Brückenkurs Mathematik 2023'
 moduleNumber = ''
 
-date = 2023-09-18T16:03:02+02:00
+date = 2023-09-21T07:29:45+02:00
 publishDate = 2023-09-21T00:00:01+02:00
 
 includeToC = false
