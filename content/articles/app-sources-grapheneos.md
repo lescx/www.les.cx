@@ -58,9 +58,7 @@ tl;dr: Luckily, there is no need to install apps from F-Droid anymore.
 
 ## Sandboxed Google Play Store
 
-**Disclaimer:** I should point out again at this point that this guide is *not* looking for the most private way to obtain its apps, but the most secure, as defined above.
-
-My disclaimer on [Aurora Store](#aurora-store) does apply as well.
+I want to point out again that this guide is *not* looking for the most private way to obtain its apps, but the most secure, as defined above.
 
 * https://nitter.net/GrapheneOS/status/1497272529223917575
 * proper building and signing
