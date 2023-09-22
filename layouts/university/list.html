@@ -10,7 +10,7 @@
       <h2>{{ .Key }}</h2>
       <nav>
         <ul>
-        {{ range .Pages }}
+        {{ range .Pages.ByPublishDate.Reverse }}
           <li>
             <article class="post">
               <a href="{{ .Permalink }}">{{ .Title }}
