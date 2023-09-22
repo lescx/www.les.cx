@@ -13,7 +13,7 @@ moduleNumber = ''
 keywords = []
 
 date = 2023-09-21T08:29:45+02:00
-publishDate = 2023-09-21T00:00:01+02:00
+publishDate = 2023-09-21T00:00:02+02:00
 
 includeToC = true
 includeKaTeX = true
