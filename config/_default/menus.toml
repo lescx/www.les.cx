@@ -16,6 +16,10 @@
   weight = 30
 
 [[legal]]
+  name = 'home'
+  url = '/'
+  weight = 99
+[[legal]]
   name = 'contact'
   url = '/contact'
   weight = 5

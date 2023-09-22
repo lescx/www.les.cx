@@ -9,4 +9,4 @@ Hello.
 
 You can find my [university notes here]({{< ref "/university" >}}) ([RSS](/university/index.xml)).
 
-The [articles](/articles) ([RSS](/articles/index.xml)) section covers everything else related to software security, digital minimalism and tech related philosophy.
+The [articles]({{< ref "/articles" >}}) ([RSS](/articles/index.xml)) section covers everything else related to software security, digital minimalism and tech related philosophy.

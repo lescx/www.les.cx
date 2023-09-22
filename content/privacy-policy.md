@@ -10,6 +10,6 @@ draft = false
 
 ---
 
-[les.cx](https://www.les.cx) is hosted at [netcup.de](https://netcup.de). My server is located in Nuremberg.
+[les.cx](/) is hosted at [netcup.de](https://netcup.de). My server is located in Nuremberg.
 
 Email provider is [mailbox.org](https://mailbox.org) from Berlin.

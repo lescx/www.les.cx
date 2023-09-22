@@ -17,12 +17,14 @@ publishDate = 2023-09-13T16:45:51+02:00
 includeToc = false
 +++
 
+You can reach me via Matrix and email.
+
 *Before contacting me, read the [Netiquette](#netiquette) section down below.*
 
 ## Netiquette
 
-- I won't reply if you don't encrypt your email using PGP. Make sure I can find your public key and can verify your fingerprint.
-- I use two strict email filter: one on software level, one on brain level. The second one also applies to Matrix.
+- If you need to use the obsolete email technology, encrypt your message using PGP/age. Otherwise I will not answer.
+- Also, be aware that I use two strict email filter: one on software level, one on brain level.
 
 ### Software Filter
 
@@ -32,7 +34,7 @@ The following emails end up in spam:
 - Generic signatures such as 'Sent from my iPhone'
 - Buzzword keyword filtering such as "Bitcoin", "NFT" or "AI"
 - More than one "!"/"?" in succession.
-- The following ~~spam~~ email provider: yahoo.com, outlook.com, web.de, gmx.de, freenet.de, aol.com, mail.ru, yandex.ru
+- The following ~~email~~ spam provider: yahoo.com, outlook.com, web.de, gmx.de, freenet.de, aol.com, mail.ru, yandex.ru
 
 ### Brain Filter
 
@@ -49,4 +51,4 @@ Messages about the following topics end up in trash and the sender is permanentl
 ## Contact Details
 
 - Matrix (preferred): [@les.cx:matrix.org](https://matrix.to/#/@les.cx:matrix.org)
-- Email (not recommended): [luca@les.cx](mailto:luca@les.cx) ([PGP](https://www.les.cx/.well-known/openpgpkey/hu/wbp7trgro48kdyd9oi1ykze9zj5hpqwb))
+- Email (not recommended): [luca@les.cx](mailto:luca@les.cx) [[PGP](https://www.les.cx/.well-known/openpgpkey/hu/wbp7trgro48kdyd9oi1ykze9zj5hpqwb)/[age](age14eudkm9f8tr28y4arsja2asnlvymjfrkf2mr3et9328ny00a0sxqtg5pg3)]
