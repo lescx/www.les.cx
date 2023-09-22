@@ -243,8 +243,6 @@ $$
 \nexists x : x \in \R : x^{2} = -1
 $$
 
-## Mengen
-
 ## Mengen und Elemente
 
 **Beispiel:** Notation von Mengen
