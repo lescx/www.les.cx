@@ -21,6 +21,8 @@ includeKaTeX = true
 
 ## Logik
 
+### Aussagen und Wahrheitsgehalt
+
 **Beispiel:** Elementaraussagen identifizieren
 
 Zerlege die Aussage
@@ -33,12 +35,6 @@ in ihre Elementaraussagen (= Grundbausteine).
 * **(C):** $f$ hat mindestens eine Nullstelle
 
 ($f$ ist ein Polynom) $\land$ ($f$ hat ungeraden Grad) $\implies$ ($f$ hat eine Nullstelle)
-
----
-
-**Frage:** *Warum ist die Implikation wahr und nicht falsch, wenn die Grundaussage $p$ falsch ist?*
-
----
 
 **Beispiel:** Wahrheitstabelle
 
@@ -130,7 +126,7 @@ $$
 
 > Auffällig ist hierbei die Ähnlichkeit zum Distributivgesetz von Addition und Multiplikation der reellen Zahlen.
 
-Beispiel:
+**Beispiel:**
 
 $$
 a (b + c) = (a b) + (a c)
@@ -218,8 +214,6 @@ Ein *Lemma* ist ein Hilfssatz.
 
 Prädikat $P$ mit $x$ eingesetzt $P(x)$ ist eine Aussage.
 
----
-
 ### Existenzquantor und Allquantor
 
 **Beispiel:** Aussagen mit Quantoren
@@ -276,3 +270,7 @@ $$
 $$
 C = \Set{x|\R \rightarrow \R \land f(-x) = f(x)}
 $$
+
+## Notizen für nach der Vorlesung
+
+- *Warum ist die Implikation wahr und nicht falsch, wenn die Grundaussage $p$ falsch ist?*
