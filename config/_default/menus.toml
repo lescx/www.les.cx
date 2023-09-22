@@ -1,24 +1,36 @@
+[[main]]
+  name = 'about'
+  url = '/'
+  weight = 30
+[[main]]
+  name = 'articles'
+  url = '/articles'
+  weight = 10
+  post = '<a href="/articles/index.xml"><svg class="rss_icon" fill="#F26419" width="10" height="10" viewBox="0 0 448 448" xmlns="http://www.w3.org/2000/svg"><g><circle cx="64" cy="384" r="64"></circle></g><g><path d="M0,149.344v85.344c117.632,0,213.344,95.68,213.344,213.312h85.312C298.656,283.328,164.672,149.344,0,149.344z"></path></g><g><path d="M0,0v85.344C200,85.344,362.688,248,362.688,448H448C448,200.96,247.04,0,0,0z"></path></g></svg></a>'
+[[main]]
+  name = 'university'
+  url = '/university'
+  weight = 20
+  post = '<a href="/university/index.xml"><svg class="rss_icon" fill="#F26419" width="10" height="10" viewBox="0 0 448 448" xmlns="http://www.w3.org/2000/svg"><g><circle cx="64" cy="384" r="64"></circle></g><g><path d="M0,149.344v85.344c117.632,0,213.344,95.68,213.344,213.312h85.312C298.656,283.328,164.672,149.344,0,149.344z"></path></g><g><path d="M0,0v85.344C200,85.344,362.688,248,362.688,448H448C448,200.96,247.04,0,0,0z"></path></g></svg></a>'
+
 [[social]]
-  name = "HTTPS"
-  url = "https://www.les.cx"
-  weight = 99
-[[social]]
-  name = "nostr"
-  url = "npub1wnwxt4hg3xg6egc4v8r5zjclf0v2745yq50t5uzhx794h2z8gwwqszpm3w"
+  name = 'nostr'
+  url = 'npub1wnwxt4hg3xg6egc4v8r5zjclf0v2745yq50t5uzhx794h2z8gwwqszpm3w'
   weight = 10
 [[social]]
-  name = "Codeberg"
-  url = "https://codeberg.org/les"
+  name = 'codeberg'
+  url = 'https://codeberg.org/les'
   weight = 20
 [[social]]
-  name = "GitHub"
-  url = "https://github.com/lescx"
+  name = 'github'
+  url = 'https://github.com/lescx'
   weight = 30
 
-[[legal]]
-  name = 'home'
-  url = '/'
+[[protocol]]
+  name = "website"
+  url = "https://www.les.cx"
   weight = 99
+
 [[legal]]
   name = 'contact'
   url = '/contact'

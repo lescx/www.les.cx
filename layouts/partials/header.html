@@ -1,14 +1,11 @@
 <header>
-  <!--
   <nav class="menu">
     <ul>
     {{- range site.Menus.main }}
       <li>
-        <a {{ with .Params.class -}} class="{{ . }}" {{ end -}} href="{{ .URL }}">{{ .Name }}</a>
+        <a {{ with .Params.class -}} class="{{ . }}" {{ end -}} href="{{ .URL }}">{{ .Name }}</a>{{ .Post }}
       </li>
-      {{ .Post }}
     {{ end -}}
     </ul>
   </nav>
-  -->
 </header>
