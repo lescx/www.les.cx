@@ -13,17 +13,11 @@
 {{ end }}
 {{ with .Params.tldr }}
 <section id="tldr">
-  <h2>tl;dr</h2>
-  {{ . }}
+  <h2>TL;DR</h2>
+  {{ . | markdownify }}
 </section>
 {{ end }}
 <article>
-  {{ with .Params.description}}
-  <section id="description">
-    <h2>Description</h2>
-    {{ . }}
-  </section>
-  {{ end }}
   {{ .Content }}
 </article>
 {{ end }}

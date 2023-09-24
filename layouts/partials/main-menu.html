@@ -1,0 +1,9 @@
+<nav class="main menu">
+  <ul>
+  {{- range site.Menus.main }}
+    <li>
+      <a {{ with .Params.class -}} class="{{ . }}" {{ end -}} href="{{ .URL }}">{{ .Name }}</a>{{ .Post }}
+    </li>
+  {{ end -}}
+  </ul>
+</nav>
