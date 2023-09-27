@@ -19,7 +19,7 @@ I am interested in:
   * [GrapheneOS](https://grapheneos.org)
   * [Plan9](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs)
   * [OpenBSD](https://www.openbsd.org)
-  * Sadly there isn't a *good* secure™ open source operating system, so I also keep two eyes on Windows and macOS
+  * Sadly there isn't a *good* secure™ FOSS desktop operating system, so I also keep two eyes on Windows and macOS
 * [CTFs](https://ctf101.org)
 * infosec, security, \[anti]forensics
 * programming languages:
