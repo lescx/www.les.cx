@@ -18,10 +18,6 @@ publishDate = 2023-09-17T18:13:10+02:00
 includeToc = false
 +++
 
-
-***This article is still a WIP. Come back in a few days for a finished version. – Luca.***
-
-
 Since in the GrapheneOS Matrix rooms the question arises almost daily about the best way to obtain Apps, this is a short "how to" and "why to" for GrapheneOS users.  The goal is to obtain Apps from a source that is trustworthy and secure without being altered on the way to the device.
 
 Important: Ich denke, es ist klar, dass kein App Store der Welt davor schützt, dass eine App Hintertüren eingebaut haben kann von den eigenen Entwicklern. Deshalb sollte man sich vorher Gedanken machen, *welche* Apps man auf seinem Gerät installiert haben möchte.
@@ -39,6 +35,8 @@ Nachfolgend kommen die Quellen, von denen man seine Apps beziehen sollte in abst
 
 ## GrapheneOS's *Apps* App
 
+-- To-Do --
+
 
 ## Accrescent
 
@@ -54,7 +52,7 @@ For a full list of features, please take a look at the [FAQ](https://accrescent.
 
 Also…:
 
-* They actually care if the signature changes!!! (Looking at you, F-Droid!)
+* Unlike F-Droid, they actually care if the signature changes!
 * Accrescent uses a strong signing method for its repository metadata than F-Droid (Ed25519 whole-file signing vs Jar signing)
 
 
@@ -118,3 +116,8 @@ Also: Do you check the APK hash and PGP signature on android? Probably not.
 
 Not a particularly confidence-inspiring way to obtain an app.
 And not a user-friendly one. How often have you checked the PGP signature on your phone for a programme?
+
+
+## Conclusion
+
+Currently it isn't possible to just use Apps and Accrescent. If you do not want to use Google Play Services, then use Obtainium. Otherwise also use the Google Play Store where you can.
