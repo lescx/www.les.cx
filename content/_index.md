@@ -9,7 +9,7 @@ Hello.
 
 ## Who I Am
 
-* Luca Etienne Schulz
+* Luca Etienne Schulz `(les[.cx])`
 * [codeberg.org/les](https://codeberg.org/les)
 * [github.com/lescx](https://github.com/lescx)
 
