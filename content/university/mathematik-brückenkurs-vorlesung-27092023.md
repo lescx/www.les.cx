@@ -18,5 +18,5 @@ publishDate = 2023-09-27T00:00:01+02:00
 includeToC = false
 +++
 
-* [Folien](/university/brückenkurs-mathe-folien-05.pdf) To-Do
+* [Folien](/university/brückenkurs-mathe-folien-05.pdf)
 * [Übung](/university/brückenkurs-mathe-übung-05.pdf) und [Lösung](brückenkurs-mathe-lösung-05.pdf)
