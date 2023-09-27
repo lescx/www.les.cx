@@ -26,4 +26,5 @@ Heute gibt es hier nichts, was ich zusätzlich zu den Folien noch ergänzen kann
 * [Skript](/university/brückenkurs-mathe-skript-01-02.pdf) beginnend ab Seite 32
 * [Folien](/university/brückenkurs-mathe-folien-02.pdf)
 * [annotierte Folien](/university/brückenkurs-mathe-folien-02-annot.pdf)
+* [Merkblatt](/university/brückenkurs-mathe-merkblatt-02.pdf)
 * [Übung](/university/brückenkurs-mathe-übung-02.pdf) und [Lösung](brückenkurs-mathe-lösung-02.pdf)

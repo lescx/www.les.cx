@@ -23,4 +23,5 @@ Halluu :3
 Konnte heute leider weder an den Vorlesungen, noch an den Übungen teilnehmen. Bin ab morgen wieder da! Wie immer, hier die Dokumente zur heutigen Vorlesung!
 
 * [Folien](/university/brückenkurs-mathe-folien-03.pdf)
+* [Merkblatt](/university/brückenkurs-mathe-merkblatt-03.pdf)
 * [Übung](/university/brückenkurs-mathe-übung-03.pdf) und [Lösung](brückenkurs-mathe-lösung-03.pdf)

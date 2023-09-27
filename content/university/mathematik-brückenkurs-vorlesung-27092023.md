@@ -18,5 +18,14 @@ publishDate = 2023-09-27T00:00:01+02:00
 includeToC = false
 +++
 
-* [Folien](/university/brückenkurs-mathe-folien-05.pdf)
+Ich war am Montag nicht da, deshalb war es für mich heute das erste Mal, dass ich den werten Prof. anhören durfte.  Ich habe selten eine so überverkomplizierte Vortragsweise gesehen für eigentlich simple Themen. Macht keine Freude beim zuhören. Weder sein Gesprochenes, noch seine Folien sind für mich wirklich von Nutzen. Deshalb hier ein paar Empfehlungen von Seiten, die das Thema Differentialrechnung/Ableitung verständlicher und anschaulicher darstellen.
+
+* [YouTube: 3blue1brown - Essence of calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
+* [grund-wissen.de](https://www.grund-wissen.de/mathematik/) - meine Empfehlung!
+* [Studyflix zum Thema Ableitung](https://studyflix.de/mathematik/ableitung-2066)
+
+Und wie immer, hier die Dokumente.
+
+* [Folien](/university/brückenkurs-mathe-folien-05.pdf) To-Do
+* [Merkblatt](/university/brückenkurs-mathe-merkblatt-05.pdf)
 * [Übung](/university/brückenkurs-mathe-übung-05.pdf) und [Lösung](brückenkurs-mathe-lösung-05.pdf)

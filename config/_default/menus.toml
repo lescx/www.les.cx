@@ -1,5 +1,5 @@
 [[main]]
-  name = 'about'
+  name = 'home'
   url = '/'
   weight = 30
 [[main]]
