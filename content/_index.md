@@ -10,7 +10,6 @@ Hello.
 ## Who I Am
 
 * Luca Etienne Schulz
-* age [age14eudkm9f8tr28y4arsja2asnlvymjfrkf2mr3et9328ny00a0sxqtg5pg3](/.well-known/security.txt)
 * [codeberg.org/les](https://codeberg.org/les)
 * [github.com/lescx](https://github.com/lescx)
 
