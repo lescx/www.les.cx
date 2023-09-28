@@ -17,3 +17,9 @@ publishDate = 2023-09-28T00:00:01+02:00
 
 includeToC = true
 +++
+
+Konnte leider heute nicht mit da sein.
+
+* [annotierte Folien](/university/brückenkurs-mathe-folien-06.pdf) To-Do
+* [Merkblatt](/university/brückenkurs-mathe-merkblatt-06.pdf)
+* [Übung](/university/brückenkurs-mathe-übung-06.pdf) und [Lösung](brückenkurs-mathe-lösung-06.pdf)
