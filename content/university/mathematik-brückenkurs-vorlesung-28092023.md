@@ -1,9 +1,9 @@
 +++
-draft = true
+draft = false
 title = 'Vorlesung: Vektorrechnung, Analytische Geometrie in Ebene und Raum'
 subtitle = ''
 topic = 'Vektorrechnung, Analytische Geometrie in Ebene und Raum'
-description = 'In dieser 6. Vorlesung geht es im ersten Teil um Grundlagen der Vektorrechnung. Wir betrachten zunächst das Skalarprodukt zweier Vektoren mit zwei oder drei Komponenten. Im Anschluss daran geht es weiter mit dem Vektorprodukt zweier Vektoren mit drei Komponenten sowie dem Spatprodukt dreier Vektoren mit drei Komponenten. Im zweiten Teil der Vorlesung stehen ausgewählte Inhalte der Analytischen Geometrie in Ebene und Raum im Mittelpunkt. Wir schauen uns zunächst an, inwiefern sich Geraden mittels Parameterdarstellungen bzw. Geraden im 2D auch mittels parameterfreier Gleichungen beschreiben lassen. Weiter geht es mit Parameterdarstellungen und parameterfreien Darstellungen von Ebenen. Am Ende der Vorlesung diskutieren wir dann mögliche Lagebeziehungen, die die kennengelernten geometrischen Objekte (Punkte, Geraden, Ebenen) zueinander haben können.'
+description = 'Thema sind Grundlagen der Vektorrechnung. Skalarprodukt, Vektorprodukt, Spatprodukt Im zweiten Teil der Vorlesung stehen ausgewählte Inhalte der Analytischen Geometrie in Ebene und Raum im Mittelpunkt.'
 summary = ''
 
 semesters = 1
