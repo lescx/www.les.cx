@@ -15,10 +15,10 @@ keywords = []
 date = 2023-09-08T08:30:10+02:00
 publishDate = 2023-09-28T00:00:01+02:00
 
-includeToC = true
+includeToC = false
 +++
 
-Konnte leider heute nicht mit da sein.
+Konnte leider heute nicht mit da sein. Morgen aber wieder. Vielleicht sogar mit Anmerkungen. :)
 
 * [annotierte Folien](/university/brückenkurs-mathe-folien-06.pdf) To-Do
 * [Merkblatt](/university/brückenkurs-mathe-merkblatt-06.pdf)
