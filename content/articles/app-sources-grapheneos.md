@@ -5,7 +5,7 @@ aliases = ['/article/app-sources-grapheneos']
 title = 'A Summary of App Repositories for GrapheneOS'
 subtitle = "Don't bully the app store with only 12 apps… :("
 # tl;dr
-tldr = 'Ideally, only use GrapheneOSs *Apps* app and [Accrescent](https://accrescent.app).  **Never** use unofficial channels to get your APKs.  If you use the sandboxed Google Play Services then make use of the Google Play Store!  Download [Obtainium](https://github.com/ImranR98/Obtainium) from GitHub for APKs not found on Accrescent or in the Google Play Store.'
+tldr = 'Ideally, only use GrapheneOSs *Apps* app and [Accrescent](https://accrescent.app).  If you use the sandboxed Google Play Services then make use of the Google Play Store!  Download [Obtainium](https://github.com/ImranR98/Obtainium) from GitHub for APKs not found on Accrescent or in the Google Play Store.'
 
 # SEO ~150 chars max
 description = 'A comparison of different sources to retrieve apps from for GrapheneOS.'
