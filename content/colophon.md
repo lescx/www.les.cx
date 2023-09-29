@@ -4,7 +4,7 @@ draft = false
 title = 'Colophon'
 
 # SEO ~150 chars max
-description = ''
+description = 'Personal website of Luca Etienne Schulz, build with Hugo'
 # SEO keywords
 keywords = []
 
@@ -14,11 +14,11 @@ publishDate = 2023-09-29T08:43:08+02:00
 includeToc = false
 +++
 
-[les.cx](/) is designed, written, and produced by me, Luca Etienne Schulz. ASCII art is also done by myself.
+[les.cx](/) is made by Luca Etienne Schulz.
 
-It is typeset in `system-ui` font family.
+It is typeset in `system-ui` font family. In article on why this should be the default behaviour is currently in draft.
 
-[les.cx](/) is hosted at [netcup.de](https://netcup.de). My server is located in Nuremberg.
+My server is hosted at [netcup.de](https://netcup.de), located in Nuremberg.
 
 Email provider is [mailbox.org](https://mailbox.org) from Berlin.
 
