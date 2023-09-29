@@ -20,6 +20,7 @@ includeToC = false
 
 Konnte leider heute nicht mit da sein. Morgen aber wieder. Vielleicht sogar mit Anmerkungen. :)
 
-* [annotierte Folien](/university/brückenkurs-mathe-folien-06.pdf) To-Do
+* [Folien](/university/brückenkurs-mathe-folien-06.pdf)
+* [annotierte Folien](/university/brückenkurs-mathe-folien-06-annot.pdf)
 * [Merkblatt](/university/brückenkurs-mathe-merkblatt-06.pdf)
 * [Übung](/university/brückenkurs-mathe-übung-06.pdf) und [Lösung](brückenkurs-mathe-lösung-06.pdf)

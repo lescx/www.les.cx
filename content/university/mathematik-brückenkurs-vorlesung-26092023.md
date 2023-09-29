@@ -20,6 +20,7 @@ includeToC = false
 
 Täglich grüßt der Papagei, oder so. Es gab für mich nichts, was ich mir extra noch einmal notieren musste. Dokumente:
 
-* [annotierte Folien](/university/brückenkurs-mathe-folien-04.pdf)
+* [annotierte Folien 1](/university/brückenkurs-mathe-folien-04.pdf)
+* [annotierte Folien 2](/university/brückenkurs-mathe-folien-04_02.pdf)
 * [Merkblatt](/university/brückenkurs-mathe-merkblatt-04.pdf)
 * [Übung](/university/brückenkurs-mathe-übung-04.pdf) und [Lösung](brückenkurs-mathe-lösung-04.pdf)

@@ -16,11 +16,19 @@ date = 2023-09-08T08:30:13+02:00
 publishDate = 2023-09-29T00:00:01+02:00
 
 includeToC = false
+includeKaTeX = true
 +++
 
- Nach Ende des Brückenkurses (also Anfang Oktober) wird ein Video zu dieser Vorlesung zur Verfügung gestellt werden.
+Auf Anfrage kann ich auch Videos zu jeder Vorlesung des Brückenkurses aus dem Jahr 2021 persönlich bereitstellen.
+
+### Parabelgleichungen
+
+* Scheitelpunktform $y = a(x - x_{s})^{2} + y_{s}$
+    * $(x_{s}, y_{s})$ ist der Scheitelpunkt der Pararbel
+* Normalform
+    * altbekannte a²+bx+c
 
 * [Folien](/university/brückenkurs-mathe-folien-07.pdf)
-* [annotierte Folien](/university/brückenkurs-mathe-folien-07-annot.pdf) To-Do
+* [annotierte Folien](/university/brückenkurs-mathe-folien-07-annot.pdf)
 * [Merkblatt](/university/brückenkurs-mathe-merkblatt-07.pdf)
 * [Übung](/university/brückenkurs-mathe-übung-07.pdf) und [Lösung](brückenkurs-mathe-lösung-07.pdf)
