@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = 'Vorlesung: Gleichungen und Ungleichungen mit zwei Variablen, Kombinatorik'
 subtitle = ''
 topic = 'Gleichungen und Ungleichungen mit zwei Variablen, Kombinatorik'
