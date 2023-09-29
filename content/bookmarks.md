@@ -43,7 +43,7 @@ includeToc = false
 * [Amnesty International](https://www.amnesty.org)
 * [Amused Git](https://git.omarpolo.com/?index_page=&path=amused.git&action=summary)
 * [Amused](https://projects.omarpolo.com/amused.html)
-* [Anatomy of a Terminal Emulator | poor.dev](https://poor.dev/blog/terminal-anatomy) favorite
+* [Anatomy of a Terminal Emulator | poor.dev](https://poor.dev/blog/terminal-anatomy) FAVORITE
 * [Anderen helfen Dissoziationen zu stoppen](https://www.dis-sos.com/dissoziationsstopps/) FAVORITE
 * [Andrew Stevens](https://www.andrewjstevens.com/posts/)
 * [Android Developers](https://developer.android.com)
@@ -329,7 +329,7 @@ includeToc = false
 * [Kaotic](https://kaotic.com)
 * [kapouay.eu.org bookmarks list](https://kapouay.eu.org/bookmarks)
 * [kapouay.eu.org](https://kapouay.eu.org)
-* [Kaspersky Password Manager: All your passwords are belong to us](https://blog.ledger.com/kaspersky-password-manager) favorite
+* [Kaspersky Password Manager: All your passwords are belong to us](https://blog.ledger.com/kaspersky-password-manager) FAVORITE
 * [Keyoxide](https://keyoxide.org)
 * [keys.openpgp.org](https://keys.openpgp.org)
 * [Killed by Google](https://killedbygoogle.com)
@@ -614,7 +614,7 @@ includeToc = false
 * [The small web is beautiful](https://benhoyt.com/writings/the-small-web-is-beautiful)
 * [The Surprisingly Rich History of ASCII Art | The New Stack](https://thenewstack.io/surprisingly-rich-history-ascii-art)
 * [The Tectonic Typesetting System](https://tectonic-typesetting.github.io/en-US)
-* [The terminal, the console and the shell](https://unixsheikh.com/articles/the-terminal-the-console-and-the-shell-what-are-they.html) favorite
+* [The terminal, the console and the shell](https://unixsheikh.com/articles/the-terminal-the-console-and-the-shell-what-are-they.html) FAVORITE
 * [The three approaches to computer security | The Invisible Things Lab's blog](https://theinvisiblethings.blogspot.com/2008/09/three-approaches-to-computer-security.html)
 * [The Verge](https://theverge.com)
 * [The Verge](https://www.theverge.com)
@@ -702,3 +702,5 @@ includeToc = false
 * [Zynthian: Open Synth Platform](https://zynthian.org/)
 * [日本語 with あこ - Nihongo Picnic Podcast](https://podcasters.spotify.com/pod/show/akokitamura)
 * [朝日新聞出版　最新刊行物：書籍：日本のいいもの　おいしいもの](https://publications.asahi.com/ecs/detail/?item_id=23631)
+* [Bluesky Protocol](https://blueskyweb.org)
+* [Bluesky App](https://bsky.app)

@@ -4,7 +4,7 @@ draft = false
 title = 'Colophon'
 
 # SEO ~150 chars max
-description = 'Personal website of Luca Etienne Schulz, build with Hugo'
+description = 'Personal website of Luca Etienne Schulz, build with Hugo.'
 # SEO keywords
 keywords = []
 

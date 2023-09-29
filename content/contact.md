@@ -17,15 +17,13 @@ publishDate = 2023-09-13T16:45:51+02:00
 includeToc = false
 +++
 
-You can reach me via Matrix and email.
-
-*Before contacting me, read the [Netiquette](#netiquette) section down below.*
+You can contact me via Matrix or email+PGP. Before contacting me, read the [Netiquette](#netiquette) section down below.
 
 ## Netiquette
 
 * Encrypt your Email using PGP or [age](https://age-encryption.org) if you want an answer.
-* Use Plain-text emails. 
-* I use two strict filter: one on software level, one on brain level:
+* Use Plain-text emails.
+* Be aware of my two leveled filter system:
 
 **Software level filter:** the following emails end up in spam:
 
@@ -43,9 +41,7 @@ You can reach me via Matrix and email.
 * Marketing SEO bullshit
 * Newsletter
 
----
+## Contact details
 
-## Contact Details
-
-* Matrix (preferred): [@les.cx:matrix.org](https://matrix.to/#/@les.cx:matrix.org)
-* Email (not recommended): [luca@les.cx](mailto:luca@les.cx) [[PGP](https://www.les.cx/.well-known/openpgpkey/hu/wbp7trgro48kdyd9oi1ykze9zj5hpqwb),[age](/.well-known/security.txt)]
+* Matrix: [@les.cx:matrix.org](https://matrix.to/#/@les.cx:matrix.org)
+* Email: [luca@les.cx](mailto:luca@les.cx) + [[PGP](https://www.les.cx/.well-known/openpgpkey/hu/wbp7trgro48kdyd9oi1ykze9zj5hpqwb)/[age](/.well-known/security.txt)].

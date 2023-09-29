@@ -6,14 +6,5 @@ publishDate = 2023-08-24T18:06:20+02:00
 +++
 
 Greetings! I'm Luca Etienne Schulz, `les(\.?cx)?`. I am a security researcher wokring on hardware/OS hardening.
-I'm especially interested in:
-
-* operating systems focused on minimalism and security
-  * [GrapheneOS](https://grapheneos.org)
-  * [Plan9](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs)
-  * [OpenBSD](https://www.openbsd.org)
-* [CTFs](https://ctf101.org)
-* infosec, privacy, security, anti-forensics, digital rights
-* ASCII art
 
 :wq!
