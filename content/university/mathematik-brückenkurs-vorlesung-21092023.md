@@ -19,6 +19,8 @@ includeToC = true
 includeKaTeX = true
 +++
 
+*Zu dieser und zu jeder anderen Vorlesung des Brückenkurses Mathematik kann auf Anfrage meiner Kommilitonen um die Auzeichnung jeder Veranstaltung gebeten werden. Aus Gründen des Persönlichkeitsrechts lade ich diese nicht öffentlich hoch.*
+
 ## Logik
 
 ### Aussagen und Wahrheitsgehalt

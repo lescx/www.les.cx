@@ -18,6 +18,8 @@ publishDate = 2023-09-27T00:00:01+02:00
 includeToC = false
 +++
 
+*Zu dieser und zu jeder anderen Vorlesung des Brückenkurses Mathematik kann auf Anfrage meiner Kommilitonen um die Auzeichnung jeder Veranstaltung gebeten werden. Aus Gründen des Persönlichkeitsrechts lade ich diese nicht öffentlich hoch.*
+
 Ich war am Montag nicht da, deshalb war es für mich heute das erste Mal, dass ich den werten Prof. anhören durfte.  Ich habe selten eine so überverkomplizierte Vortragsweise gesehen für eigentlich simple Themen. Macht keine Freude beim zuhören. Deshalb hier ein paar Empfehlungen von Seiten, die das Thema Differentialrechnung/Ableitung verständlicher und anschaulicher darstellen.
 
 * [YouTube: 3blue1brown - Essence of calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)

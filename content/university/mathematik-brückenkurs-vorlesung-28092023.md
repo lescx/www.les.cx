@@ -18,6 +18,8 @@ publishDate = 2023-09-28T00:00:01+02:00
 includeToC = false
 +++
 
+*Zu dieser und zu jeder anderen Vorlesung des Brückenkurses Mathematik kann auf Anfrage meiner Kommilitonen um die Auzeichnung jeder Veranstaltung gebeten werden. Aus Gründen des Persönlichkeitsrechts lade ich diese nicht öffentlich hoch.*
+
 Konnte leider heute nicht mit da sein. Morgen aber wieder. Vielleicht sogar mit Anmerkungen. :)
 
 * [Folien](/university/brückenkurs-mathe-folien-06.pdf)

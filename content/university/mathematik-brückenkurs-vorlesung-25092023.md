@@ -18,6 +18,8 @@ publishDate = 2023-09-25T00:00:01+02:00
 includeToC = false
 +++
 
+*Zu dieser und zu jeder anderen Vorlesung des Brückenkurses Mathematik kann auf Anfrage meiner Kommilitonen um die Auzeichnung jeder Veranstaltung gebeten werden. Aus Gründen des Persönlichkeitsrechts lade ich diese nicht öffentlich hoch.*
+
 Halluu :3
 
 Konnte heute leider weder an den Vorlesungen, noch an den Übungen teilnehmen. Bin ab morgen wieder da! Wie immer, hier die Dokumente zur heutigen Vorlesung!

@@ -18,6 +18,8 @@ publishDate = 2023-09-26T00:00:01+02:00
 includeToC = false
 +++
 
+*Zu dieser und zu jeder anderen Vorlesung des Brückenkurses Mathematik kann auf Anfrage meiner Kommilitonen um die Auzeichnung jeder Veranstaltung gebeten werden. Aus Gründen des Persönlichkeitsrechts lade ich diese nicht öffentlich hoch.*
+
 Täglich grüßt der Papagei, oder so. Es gab für mich nichts, was ich mir extra noch einmal notieren musste. Dokumente:
 
 * [annotierte Folien 1](/university/brückenkurs-mathe-folien-04.pdf)

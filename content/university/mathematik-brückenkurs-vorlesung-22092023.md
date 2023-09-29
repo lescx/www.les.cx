@@ -21,6 +21,8 @@ includeToC = false
 includeKaTeX = false
 +++
 
+*Zu dieser und zu jeder anderen Vorlesung des Brückenkurses Mathematik kann auf Anfrage meiner Kommilitonen um die Auzeichnung jeder Veranstaltung gebeten werden. Aus Gründen des Persönlichkeitsrechts lade ich diese nicht öffentlich hoch.*
+
 Heute gibt es hier nichts, was ich zusätzlich zu den Folien noch ergänzen kann. Hier ein verweis auf:
 
 * [Skript](/university/brückenkurs-mathe-skript-01-02.pdf) beginnend ab Seite 32

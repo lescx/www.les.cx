@@ -19,7 +19,7 @@ includeToC = false
 includeKaTeX = true
 +++
 
-Auf Anfrage kann ich auch Videos zu jeder Vorlesung des Brückenkurses aus dem Jahr 2021 persönlich bereitstellen.
+*Zu dieser und zu jeder anderen Vorlesung des Brückenkurses Mathematik kann auf Anfrage meiner Kommilitonen um die Auzeichnung jeder Veranstaltung gebeten werden. Aus Gründen des Persönlichkeitsrechts lade ich diese nicht öffentlich hoch.*
 
 ### Parabelgleichungen
 
