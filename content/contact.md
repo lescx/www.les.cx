@@ -21,7 +21,7 @@ You can contact me via Matrix or email+PGP. Before contacting me, read the [Neti
 
 ## Netiquette
 
-* Encrypt your Email using PGP or [age](https://age-encryption.org) if you want an answer.
+* Encrypt your Email using PGP or if you want an answer.
 * Use Plain-text emails.
 * Be aware of my two leveled filter system:
 
