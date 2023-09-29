@@ -17,11 +17,11 @@ publishDate = 2023-09-13T16:45:51+02:00
 includeToc = false
 +++
 
-You can contact me via Matrix or email+PGP. Before contacting me, read the [Netiquette](#netiquette) section down below.
+You can contact me via Matrix or email+PGP/age. Before contacting me, read the [Netiquette](#netiquette) section down below.
 
 ## Netiquette
 
-* Encrypt your Email using PGP or if you want an answer.
+* Encrypt your Email using PGP or [age](https://age-encryption.org) if you want an answer.
 * Use Plain-text emails.
 * Be aware of my two leveled filter system:
 
