@@ -3,6 +3,10 @@
   url = '/'
   weight = 30
 [[main]]
+  name = 'Bookmarks'
+  url = '/bookmarks'
+  weight = 29
+[[main]]
   name = 'Articles'
   url = '/articles'
   weight = 10

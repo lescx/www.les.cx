@@ -1,3 +1,20 @@
++++
+draft = false
+#aliases = ['']
+
+title = 'Bookmarks'
+
+# SEO ~150 chars max
+description = 'les bookmark list'
+# SEO keywords
+keywords = []
+
+date = 2023-09-29T08:30:13+02:00
+publishDate = 2023-09-29T00:00:01+02:00
+
+includeToc = false
++++
+
 * [1337x](https://1337xto.to)
 * [1337x](https://www.1337xx.st)
 * [1337x](https://www.1337xxx.to)
@@ -27,7 +44,7 @@
 * [API Hub - Free Public & Open Rest APIs | Rapid](https://rapidapi.com)
 * [Apple Developer](https://developer.apple.com)
 * [Apple M1 Assembly Language Hello World](https://smist08.wordpress.com/2021/01/08/apple-m1-assembly-language-hello-world)
-* [Apple Platform Security | Apple Support (UK)](https://support.apple.com/en-gb/guide/security/welcome/web)
+* [Apple Platform Security](https://support.apple.com/en-gb/guide/security/welcome/web)
 * [Arch Linux](https://archlinux.org)
 * [ArchWiki](https://wiki.archlinux.org)
 * [Arduino](https://arduino.cc)
@@ -89,7 +106,6 @@
 * [cpu.land](https://cpu.land)
 * [Crafting Interpreters](https://craftinginterpreters.com)
 * [crates.io: Rust Package Registry](https://crates.io)
-* [Crazy Shit](https://crazyshit.com)
 * [Crowd Supply - For the Greater Goods](https://crowdsupply.com)
 * [CryptPad Anonleaks](https://collab.anonleaks.net)
 * [CryptPad](https://cryptpad.fr)
@@ -114,16 +130,15 @@
 * [Demonoid](https://dnoid.pw)
 * [Demonoid](https://dnoid.to)
 * [DeMystifyinG the DMG file format](http://newosxbook.com/DMG.html)
-* [Detailed explanation of linux tput command](https://programmer.group/detailed-explanation-of-linux-tput-command.html)
+* [linux tput command](https://programmer.group/detailed-explanation-of-linux-tput-command.html)
 * [Detritus](https://detritus.zone)
 * [DevDocs API Documentation](https://devdocs.io)
-* [DevOps with Docker | DevOps with Docker](https://devopswithdocker.com)
-* [Digital audio guides and tutorials - captainrookie.com](https://captainrookie.com)
+* [DevOps with Docker](https://devopswithdocker.com)
+* [Digital audio guides and tutorials](https://captainrookie.com)
 * [Digitalcourage](https://digitalcourage.de)
-* [Dining cryptographers problem | Wikipedia](https://en.wikipedia.org/wiki/Dining_cryptographers_problem)
+* [Dining cryptographers problem](https://en.wikipedia.org/wiki/Dining_cryptographers_problem)
 * [Dinosaur Comics](https://qwantz.com)
 * [Discreete Linux](https://privacy-cd.org/index.html)
-* [DKB](https://dkb.de)
 * [DNSdumpster.com](https://dnsdumpster.com)
 * [doas insults](https://jo.ie/doas-insults.html)
 * [Documentary Mania](https://documentarymania.com)
@@ -148,7 +163,7 @@
 * [FADE DEAD Adventures in Reversing Malicious Run-Only AppleScripts](https://sentinelone.com/labs/fade-dead-adventures-in-reversing-malicious-run-only-applescripts)
 * [Fake books](https://lcamtuf.substack.com/p/fake-books)
 * [Farthest Frontier](https://farthestfrontier.com)
-* [Favicon Generator for perfect icons on all browsers](https://realfavicongenerator.net)
+* [Favicon Generator for icons on all browsers](https://realfavicongenerator.net)
 FAVORITE BLOG POST * [Anatomy of a Terminal Emulator | poor.dev](https://poor.dev/blog/terminal-anatomy)
 FAVORITE BLOG POST * [Kaspersky Password Manager: All your passwords are belong to us](https://blog.ledger.com/kaspersky-password-manager)
 FAVORITE BLOG POST * [The terminal, the console and the shell](https://unixsheikh.com/articles/the-terminal-the-console-and-the-shell-what-are-they.html)
@@ -246,7 +261,7 @@ FAVORITE BLOG POST * [The terminal, the console and the shell](https://unixsheik
 * [JetBrains](https://jetbrains.com)
 * [JFF | Bringing Japanese Film to You](https://jff.jpf.go.jp)
 * [Jisho.org: Japanese Dictionary](https://jisho.org)
-* [JLPT Sensei | Learn Japanese & Study for the JLPT](https://jlptsensei.com)
+* [JLPT Sensei | & Study for the JLPT](https://jlptsensei.com)
 * [Josh Davis](https://joshldavis.com)
 * [joshua stein](https://jcs.org)
 * [Josh W Comeau](https://joshwcomeau.com)
@@ -260,7 +275,7 @@ FAVORITE BLOG POST * [The terminal, the console and the shell](https://unixsheik
 * [keys.openpgp.org](https://keys.openpgp.org)
 * [Kino im Kasten](https://www.kino-im-kasten.de)
 * [Kitty Giraudel](https://kittygiraudel.com)
-* [klaeny - Nachhaltige Haushaltsreiniger](https://klaeny.de)
+* [klaeny Nachhaltige Haushaltsreiniger](https://klaeny.de)
 * [KoRo Germany](https://korodrogerie.de)
 * [KRACK Attacks: Breaking WPA2](https://krackattacks.com)
 * [Kremer Pigmente Online Shop](https://kremer-pigmente.com/de)
@@ -525,7 +540,7 @@ FAVORITE BLOG POST * [The terminal, the console and the shell](https://unixsheik
 * [What if there were products based on drawings that make Don laugh?](https://calamityware.com)
 * [WhatsMyName Web](https://whatsmyname.app)
 * [What spaced repetition algorithm does Anki use?](https://faqs.ankiweb.net/what-spaced-repetition-algorithm.html)
-* [Whiskeyrap.de](https://whiskeyrap.de)
+* [Whiskeyrap](https://whiskeyrap.de)
 * [Whonix](https://whonix.org)
 * [Why OpenBSD rocks](https://why-openbsd.rocks)
 * [Wiby](https://wiby.me)
@@ -536,12 +551,12 @@ FAVORITE BLOG POST * [The terminal, the console and the shell](https://unixsheik
 * [Wolfram|Alpha](https://wolframalpha.com)
 * [Wonderful! - The McElroy Family](https://themcelroy.family/wonderful)
 * [World Photography Organisation](https://worldphoto.org)
-* [World Wide Web Consortium (W3C)](https://w3.org)
-* [xkcd: Linguistics Gossip](https://xkcd.com)
+* [W3C](https://w3.org)
+* [xkcd](https://xkcd.com)
 * [XS-Leaks Wiki](https://xsleaks.dev)
 * [XXIIVV Webring](https://webring.xxiivv.com)
 * [YARA](https://virustotal.github.io/yara)
-* [You Can Learn AArch64 Assembly in 10 Minutes | AARCH64 Hello World Tutorial](https://youtube.com/watch?v=8NdrdxkBP3U)
+* [AARCH64 Hello World Tutorial](https://youtube.com/watch?v=8NdrdxkBP3U)
 * [YouTube](https://youtube.com)
 * [yuzu](https://yuzu-emu.org)
 * [Zachtronics](https://zachtronics.com)
