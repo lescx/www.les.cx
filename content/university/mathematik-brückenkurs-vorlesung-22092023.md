@@ -29,4 +29,4 @@ Heute gibt es hier nichts, was ich zusätzlich zu den Folien noch ergänzen kann
 * [Folien](/university/brückenkurs-mathe-folien-02.pdf)
 * [annotierte Folien](/university/brückenkurs-mathe-folien-02-annot.pdf) (Achtung: große Datei. 19MB.)
 * [Merkblatt](/university/brückenkurs-mathe-merkblatt-02.pdf)
-* [Übung](/university/brückenkurs-mathe-übung-02.pdf) und [Lösung](brückenkurs-mathe-lösung-02.pdf)
+* [Übung](/university/brückenkurs-mathe-übung-02.pdf) und [Lösung](/university/brückenkurs-mathe-lösung-02.pdf)
