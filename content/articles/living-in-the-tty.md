@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 #aliases = ['']
 
 title = 'Living in the TTY'
