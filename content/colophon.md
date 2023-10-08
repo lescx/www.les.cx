@@ -16,7 +16,7 @@ includeToc = false
 
 [les.cx](/) is made by Luca Etienne Schulz.
 
-It is typeset in `system-ui` font family. In article on why this should be the default behaviour is currently in draft.
+It is typeset in the `system-ui` font family. An article on why this should be the default behaviour is currently in draft.
 
 My server is hosted at [netcup.de](https://netcup.de), located in Nuremberg.
 

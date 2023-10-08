@@ -21,26 +21,9 @@ You can contact me via Matrix or email+PGP/age. Before contacting me, read the [
 
 ## Netiquette
 
-* Encrypt your Email using PGP or [age](https://age-encryption.org) if you want an answer.
 * Use Plain-text emails.
-
-Be aware of my evil, evil two leveled filter system.
-
-**Software level filter:** the following emails end up in spam.
-
-* Generic signatures such as 'Sent from my iPhone'
-* Buzzwords such as "Bitcoin", "NFT" or "AI"
-* Multiple "!"/"?" in succession.
-* ~~Email~~ Spam provider: gmail.com, yahoo.com, outlook.com, web.de, gmx.de, freenet.de, aol.com, mail.ru, yandex.ru
-  * Alternatives: [mailbox.org](https://mailbox.org), [Proton Mail](https://proton.me/mail), [Skiff Mail](https://skiff.com/mail), [Tutanota](https://tutanota.com),[…](https://www.privacyguides.org/en/email)
-
-**Brain level filter:** messages about the following topics end up in trash and the sender is permanently blocked.
-
-* Advertising
-* Crypto/NFT bullshit
-* Cooperation requests (linking, sponsoring)
-* Marketing SEO bullshit
-* Newsletter
+* Encrypt your Email using PGP or [age](https://age-encryption.org) if you want an answer.
+* Don't send me spam, newsletters, ads, crypto/NFT or marketing SEO bullshit.
 
 ## Contact details
 
