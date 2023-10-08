@@ -20,9 +20,9 @@ includeToc = false
 
 Since in the GrapheneOS Matrix rooms the question arises almost daily about the best way to obtain Apps, this is a short "how to" and "why to" for GrapheneOS users.  The goal is to obtain Apps from a source that is trustworthy and secure without being altered on the way to the device.
 
-Important: Ich denke, es ist klar, dass kein App Store der Welt davor schützt, dass eine App Hintertüren eingebaut haben kann von den eigenen Entwicklern. Deshalb sollte man sich vorher Gedanken machen, *welche* Apps man auf seinem Gerät installiert haben möchte.
+Important: I think it's clear that no app store in the world protects against an app having backdoors built in by its own developers. Therefore, you should think about *which* apps you want to have installed on your device beforehand.
 
-Ich schreibe hier ein Kurzes "was du auf gar keinen Fall machen solltest".  Das setze ich vorraus als Konsens.
+I'm writing a short "what you should definitely not do" here.  I assume this as a consensus.
 
 ## Do not…
 
@@ -30,8 +30,7 @@ Do not download APKs from unofficial sources.  This includes every site of the f
 
 Do not install APKs someone sent you via WhatsApp.  Or Telegram.  Or email.  Or Signal.
 
-Nachfolgend kommen die Quellen, von denen man seine Apps beziehen sollte in absteigender Reihenfolge, angefangen bei der GrapheneOS *Apps* app und *Accrescent*.
-
+Below are the sources from which you should obtain your apps in descending order, starting with the GrapheneOS Apps app and Accrescent.
 
 ## GrapheneOS's *Apps* App
 
@@ -42,7 +41,7 @@ Nachfolgend kommen die Quellen, von denen man seine Apps beziehen sollte in abst
 
 And here we are… The app source with 12 apps. [Accrescent](https://accrescent.app/).
 
-*Accrescent*s Augenmerk ist eine Moderne Codebasis zu haben mit Fokus auf Privatsphäre und Security.
+Accrescent's focus is to have a modern code base with a focus on privacy and security.
 
 > Accrescent will *remove* apps when they don't meet the target SDK
 
@@ -103,8 +102,6 @@ See also…
 
 * [2023-09-03 F-Droid: Reproducible builds, signing keys, and binary repos](https://f-droid.org/en/2023/09/03/reproducible-builds-signing-keys-and-binary-repos.html)
 * [2022-02-25 GrapheneOS: On Google Play Store and F-Droid](https://nitter.net/GrapheneOS/status/1497273173364166662)
-
-tl;dr: Luckily, there is no need to install apps from F-Droid anymore.
 
 
 ## APKs from Official Websites
