@@ -1,4 +1,3 @@
-<!-- KaTeX, if needed -->
 {{ $katexcss := resources.Get "katex.min.css" | resources.Fingerprint }}<link rel="stylesheet" type="text/css" href="{{ $katexcss.Permalink }}" integrity="{{ $katexcss.Data.Integrity }}">
 {{ $katexjs := resources.Get "katex.min.js" | resources.Fingerprint }}<script defer src="{{ $katexjs.Permalink }}" integrity="{{ $katexjs.Data.Integrity }}"></script>
 {{ $katexinline := resources.Get "inline-render.js" | resources.Fingerprint }}<script defer src="{{ $katexinline.Permalink }}" integrity="{{ $katexinline.Data.Integrity }}"></script>

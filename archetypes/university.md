@@ -4,9 +4,8 @@ draft = true
 
 # Not a generic name like "Vorlesung: 2023-09-10" but a descriptive title!
 title = '{{ replace .Name "-" " " | title }}'
-subtitle = ''
-# tl;dr
-summary = ''
+topic = ''
+tldr = ''
 
 # SEO ~150 chars max
 description = ''
@@ -15,7 +14,6 @@ keywords = []
 
 semesters = 1
 modules = ''
-topic = ''
 moduleNumber = ''
 
 date = {{ .Date }}
