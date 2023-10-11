@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 #aliases = ['']
 
 # Not a generic name like "Vorlesung: 2023-09-10" but a descriptive title!
