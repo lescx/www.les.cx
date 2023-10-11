@@ -41,6 +41,7 @@ th, td {
   border-left:2px solid var(--accent-blue);
   padding-left:2em;
 }
+#date p{display: inline-block;padding:10px;}
 .rss_icon{padding-left:5px;}
 .post{display:block;}
 .postdate {float: right;}
