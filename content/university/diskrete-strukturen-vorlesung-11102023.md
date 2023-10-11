@@ -31,13 +31,13 @@ includeKaTeX = true
 
 ---
 
-Inhalt:
+## Inhalt
 
 * Grundlagen der Mathematik und theoretische Informatik
 * Graphen, Wörter, Ordnungen…
   * "Rohstoffe der Datenverarbeitung"
 
-Es gibt in diesem Modul keine Vorlesungsschriften, da der Prof./die Prof. an der Tafel schreibt. Allerdings gibt es ein Skript (wenn die Website funktioniert).
+*Es gibt in diesem Modul keine Vorlesungsschriften, da der Prof./die Prof. an der Tafel schreibt. Allerdings gibt es ein Skript (wenn die Website funktioniert).*
 
 ## Mengenlehre
 
