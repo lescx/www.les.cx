@@ -3,7 +3,7 @@ draft = false
 #aliases = ['']
 
 # Not a generic name like "Vorlesung: 2023-09-10" but a descriptive title!
-title = 'Mengenlehre Teil 1'
+title = 'Vorlesung Mengenlehre Teil 1'
 topic = 'Mengenlehre'
 tldr = 'Der Spaß der diskreten Strukturen beginnt mit der Einführung in die Mengenlehre.'
 
