@@ -17,7 +17,7 @@ modules = 'Einführung in die Medieninformatik'
 moduleNumber = 'INF-B-410'
 
 date = 2023-10-12T08:48:38+02:00
-publishDate = 2023-10-12T08:48:38+02:00
+publishDate = 2023-10-12T17:44:00+02:00
 
 includeToC = false
 includeKaTeX = false
