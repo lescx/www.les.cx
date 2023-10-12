@@ -45,7 +45,7 @@ Bevor ich mich halb-über-Kopf in das Projekt stürze, sollte ich mir hier, mehr
 * Calendar + Reminder
 * Markdown + LaTeX Notes
 	* ASCII Art Mathmatical Expressions
-* Music [amused](https://projects.omarpolo.com/amused.html
+* Music [amused](https://projects.omarpolo.com/amused.html)
 * Password Manager
 * SSH
 * Torrents? For what?
