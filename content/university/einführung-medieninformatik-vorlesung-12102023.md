@@ -31,6 +31,8 @@ includeKaTeX = false
 
 * Stimmbänder machen keine Sinus-Bewegung sondern "Sägelzahn" mit anderer Grundfrequenz basierend nach Geschlecht, Gesang, Sprache,…
 
+---
+
 * [BandLab](https://www.bandlab.com)
 * [GitHub - corkami](https://github.com/corkami)
 * [Einführung EMI - YouTube (2021/2022)](https://www.youtube.com/playlist?list=PLjFoysfsJzo5fqgrllSgn43dmeI1Xe-2N)
